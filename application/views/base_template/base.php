@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="<?=base_url( 'assets/favicon.ico' )?>">
 
-    <title>Vertec</title>
+    <title>Love Academy</title>
 
     <!-- Bootstrap core CSS -->
     <link href="<?=base_url( 'vendor/twbs/bootstrap/dist/css/bootstrap.min.css?ver=' ).rand()?>" rel="stylesheet">
