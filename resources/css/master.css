@@ -1,0 +1,49 @@
+/* Estilo principal de la pagina de love academy*/
+
+
+/*Estilos para generales*/
+
+@font-face {
+  font-family: 'Casper';
+  src: url('../fonts/Casper.ttf');
+}
+
+@font-face {
+  font-family: 'Casper Bold';
+  src: url('../fonts/Casper Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Casper Italic';
+  src: url('../fonts/Casper Italic.ttf');
+}
+
+
+
+html{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+/* Estilos visuales para la cabecera *
+
+
+
+/* Menu */
+.item-menu-icon{
+  margin: 12px;
+  padding: 12px;
+  color: #EC2587;
+}
+
+.item-menu-link{
+  color: #000000;
+  padding-top: 26px;
+  font-size: 1.2em;
+}
