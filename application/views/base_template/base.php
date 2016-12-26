@@ -199,53 +199,50 @@
 
           <!-- TODO: Need to fix thumnails -->
           <div class="row">
-            <div class="col-xs-4">
-              <div class="thumbnail" style="padding: 10px; height: 250px;">
-                <img src="https://1.bp.blogspot.com/-aFQ-W_KTFWQ/V6BdtpSUy6I/AAAAAAAAAH4/xD_U-BYItSsNvk1UGfROqLBzzU1h32oXQCLcB/s320/4-diwali-greeting-cards-by-ajay-acharya.jpg" alt="Bootstrap Thumbnail: Beautiful Bootstrap Thumbnail like Material Design Cards">
-                <div class="caption">
-                  <div class="" style="background-color: #C7C6C2; height: 25px;">
-                    <h4 class="text-center" style="color: #ffffff; padding: 4px;">SASHA COBRA</h4>
-                    <div class="teacher-info" style="padding: 5px; height: 160px;">
-                      <p style="font-size: 0.65em;">
-                        Sasha has been living, training and working with Shantam Nityama for over 8 years and is one of three certified Nitvana Bodywork Practitioners in the world. She now travels globally, sharing the gifts of this work through private sessions and workshops.
-                      </p>
+
+            <div class="col-xs-4" >
+                <div class="content" style="margin: 0px 10px 0px 20px; border: 1px solid #aaa; height: 400px;">
+                  <div class="" style="margin: 10px; border: 1px solid #aaa; height: 150px;">
+                    <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=250×150&w=250&h=150" alt="" class="img-responsive">
+                    <div class="" style="background-color: #CDCCCB; height: 22px;">
+                      <h5 class="text-center" style="color: #fff; padding: 4px 0pc 0px 4px; font-family: 'Casper';">S A S H A &nbsp; C O B R A</h5>
                     </div>
                   </div>
+
+                  <br>
+
+                  <div class="row">
+                    <div class="col-xs-10 col-xs-offset-1">
+                      <div class="" style="height: 150px; max-height: 150px; background: red;">
+
+                      </div>
+                    </div>
+                  </div>
+
                 </div>
-              </div>
+
+                <p class="text-center" style="position: relative; bottom: 10px;"> <a href="#" ><i class="fa fa-plus" style="color: #EC2587; font-weight: 900;"></i></a> </p>
             </div>
 
-            <div class="col-xs-4">
-              <div class="thumbnail" style="padding: 10px; height: 250px;">
-                <img src="https://1.bp.blogspot.com/-aFQ-W_KTFWQ/V6BdtpSUy6I/AAAAAAAAAH4/xD_U-BYItSsNvk1UGfROqLBzzU1h32oXQCLcB/s320/4-diwali-greeting-cards-by-ajay-acharya.jpg" alt="Bootstrap Thumbnail: Beautiful Bootstrap Thumbnail like Material Design Cards">
-                <div class="caption">
-                  <div class="" style="background-color: #C7C6C2; height: 25px;">
-                    <h4 class="text-center" style="color: #ffffff; padding: 4px;">SASHA COBRA</h4>
-                    <div class="teacher-info" style="padding: 5px; height: 160px;">
-                      <p style="font-size: 0.65em;">
-                        Sasha has been living, training and working with Shantam Nityama for over 8 years and is one of three certified Nitvana Bodywork Practitioners in the world. She now travels globally, sharing the gifts of this work through private sessions and workshops.
-                      </p>
-                    </div>
+            <div class="col-xs-4" >
+                <div class="content" style="margin: 0px 10px 0px 20px; border: 1px solid #aaa; height: 400px;">
+                  <div class="" style="margin: 10px; border: 1px solid #aaa; height: 150px;">
+                    <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=250×150&w=250&h=150" alt="" class="img-responsive">
                   </div>
                 </div>
-              </div>
+                <p class="text-center" style="position: relative; bottom: 10px;"> <a href="#" ><i class="fa fa-plus" style="color: #EC2587; font-weight: 900;"></i></a> </p>
             </div>
 
-            <div class="col-xs-4">
-              <div class="thumbnail" style="padding: 10px; height: 250px;">
-                <img src="https://1.bp.blogspot.com/-aFQ-W_KTFWQ/V6BdtpSUy6I/AAAAAAAAAH4/xD_U-BYItSsNvk1UGfROqLBzzU1h32oXQCLcB/s320/4-diwali-greeting-cards-by-ajay-acharya.jpg" alt="Bootstrap Thumbnail: Beautiful Bootstrap Thumbnail like Material Design Cards">
-                <div class="caption">
-                  <div class="" style="background-color: #C7C6C2; height: 25px;">
-                    <h4 class="text-center" style="color: #ffffff; padding: 4px;">SASHA COBRA</h4>
-                    <div class="teacher-info" style="padding: 5px; height: 160px;">
-                      <p style="font-size: 0.65em;">
-                        Sasha has been living, training and working with Shantam Nityama for over 8 years and is one of three certified Nitvana Bodywork Practitioners in the world. She now travels globally, sharing the gifts of this work through private sessions and workshops.
-                      </p>
-                    </div>
+            <div class="col-xs-4" >
+                <div class="content" style="margin: 0px 10px 0px 20px; border: 1px solid #aaa; height: 400px;">
+                  <div class="" style="margin: 10px; border: 1px solid #aaa; height: 150px;">
+                    <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=250×150&w=250&h=150" alt="" class="img-responsive">
                   </div>
                 </div>
-              </div>
+                <p class="text-center" style="position: relative; bottom: 10px;"> <a href="#" ><i class="fa fa-plus" style="color: #EC2587; font-weight: 900;"></i></a> </p>
             </div>
+
+
           </div>
 
           <br>
@@ -256,6 +253,39 @@
                 <h2 class="text-center" style="color: #EC2587; padding-top: 4px;">EXPERIENCES</h2>
               </div>
             </div>
+          </div>
+
+          <br>
+
+          <div class="row">
+
+            <div class="col-xs-4" >
+                <div class="content" style="margin: 0px 10px 0px 20px; border: 1px solid #aaa; height: 400px;">
+                  <div class="" style="margin: 10px; border: 1px solid #aaa; height: 380px;">
+                    <img src="" alt="">
+                  </div>
+                </div>
+                <p class="text-center" style="position: relative; bottom: 10px;"> <a href="#" ><i class="fa fa-plus" style="color: #EC2587; font-weight: 900;"></i></a> </p>
+            </div>
+
+            <div class="col-xs-4" >
+                <div class="content" style="margin: 0px 15px 0px 15px; border: 1px solid #aaa; height: 400px;">
+                  <div class="" style="margin: 10px; border: 1px solid #aaa; height: 380px;">
+                    <img src="" alt="">
+                  </div>
+                </div>
+                <p class="text-center" style="position: relative; bottom: 10px;"> <a href="#" ><i class="fa fa-plus" style="color: #EC2587; font-weight: 900;"></i></a> </p>
+            </div>
+
+            <div class="col-xs-4" >
+                <div class="content" style="margin: 0px 20px 0px 10px; border: 1px solid #aaa; height: 400px;">
+                  <div class="" style="margin: 10px; border: 1px solid #aaa; height: 380px;">
+                    <img src="" alt="">
+                  </div>
+                </div>
+                <p class="text-center" style="position: relative; bottom: 10px;"> <a href="#" ><i class="fa fa-plus" style="color: #EC2587; font-weight: 900;"></i></a> </p>
+            </div>
+
           </div>
 
 
@@ -293,6 +323,10 @@
               </div>
             </div>
           </div>
+
+          <br>
+
+          <iframe src="https://embed.spotify.com/?uri=spotify:user:spotify:playlist:3rgsDhGHZxZ9sB9DQWQfuf" width="100%" height="380" frameborder="0" allowtransparency="true"></iframe>
 
 
         </div>
