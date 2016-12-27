@@ -20,6 +20,15 @@ class templateController extends CI_Controller {
 	 */
 	public function index()
 	{
+		$this->load->view('base_template/header');
 		$this->load->view('base_template/base');
+		$this->load->view('base_template/footer');
 	}
+
+	public function maqueta(){
+		$this->load->view('base_template/header');
+		$this->load->view('base_template/maqueta');
+		$this->load->view('base_template/footer');
+	}
+
 }
