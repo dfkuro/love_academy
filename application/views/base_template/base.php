@@ -189,8 +189,8 @@
           <!-- Section: TEACHERS & HEALERS & COACHES -->
           <div class="row">
             <div class="col-xs-12">
-              <div class="" style="background-color: #C7C6C2; height: 40px;">
-                <h2 class="text-center" style="color: #EC2587; padding-top: 4px;">TEACHERS & HEALERS & COACHES</h2>
+              <div class="" style="background-color: #C7C6C2; height: 45px;">
+                <h3 class="text-center" style="color: #EC2587; padding-top: 10px; letter-spacing: 6px; font-family: 'Casper'; font-weight: 100;">TEACHERS & HEALERS & COACHES</h3>
               </div>
             </div>
           </div>
@@ -213,8 +213,10 @@
 
                   <div class="row">
                     <div class="col-xs-10 col-xs-offset-1">
-                      <div class="" style="height: 150px; max-height: 150px; background: red;">
-
+                      <div class="" style="height: 180px; max-height: 190px; position: relative; top: 10px;">
+                        <p class="center-text" style="font-size: 0.7em;">
+                          Sasha has been living, training and working with Shantam Nityama for over 8 years and is one of three certified Nitvana Bodywork Practitioners in the world. She now travels globally, sharing the gifts of this work through private sessions and workshops.
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -228,16 +230,54 @@
                 <div class="content" style="margin: 0px 10px 0px 20px; border: 1px solid #aaa; height: 400px;">
                   <div class="" style="margin: 10px; border: 1px solid #aaa; height: 150px;">
                     <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=250×150&w=250&h=150" alt="" class="img-responsive">
+                    <div class="" style="background-color: #CDCCCB; height: 22px;">
+                      <h5 class="text-center" style="color: #fff; padding: 4px 0pc 0px 4px; font-family: 'Casper';">R O L A N D &nbsp; P E R A L T A</h5>
+                    </div>
                   </div>
+
+                  <br>
+
+                  <div class="row">
+                    <div class="col-xs-10 col-xs-offset-1">
+                      <div class="" style="height: 180px; max-height: 190px; position: relative; top: 10px;">
+                        <p class="center-text" style="font-size: 0.7em;">
+                          Guiding couples and women to move out of the "quickie consciousness" enabling people, deeper more intimate and authentic connections in relationship.
+                        </p>
+
+                        <p class="center-text" style="font-size: 0.7em;">
+                            Its the manifestation of years of practicing yoga, contact improvisation, partner yoga, thai massage, sensual massage, 5 Rhythms and other healing modalities including Reiki and Hands of Light Healing.
+                        </p>
+
+                      </div>
+                    </div>
+                  </div>
+
                 </div>
                 <p class="text-center" style="position: relative; bottom: 10px;"> <a href="#" ><i class="fa fa-plus" style="color: #EC2587; font-weight: 900;"></i></a> </p>
             </div>
+
 
             <div class="col-xs-4" >
                 <div class="content" style="margin: 0px 10px 0px 20px; border: 1px solid #aaa; height: 400px;">
                   <div class="" style="margin: 10px; border: 1px solid #aaa; height: 150px;">
                     <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=250×150&w=250&h=150" alt="" class="img-responsive">
+                    <div class="" style="background-color: #CDCCCB; height: 22px;">
+                      <h5 class="text-center" style="color: #fff; padding: 4px 0pc 0px 4px; font-family: 'Casper';">S H A N T A M &nbsp; N I T Y A M A</h5>
+                    </div>
                   </div>
+
+                  <br>
+
+                  <div class="row">
+                    <div class="col-xs-10 col-xs-offset-1">
+                      <div class="" style="height: 180px; max-height: 190px; position: relative; top: 10px;">
+                        <p class="center-text" style="font-size: 0.7em;">
+                          Shantam Nityama is out to shake the world up with his presence. He has pioneered his own revolutionary form of bodywork designed to take men and women on a journey from sex to superconsciousness, while healing at the deepest levels.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
                 </div>
                 <p class="text-center" style="position: relative; bottom: 10px;"> <a href="#" ><i class="fa fa-plus" style="color: #EC2587; font-weight: 900;"></i></a> </p>
             </div>
@@ -249,8 +289,8 @@
 
           <div class="row">
             <div class="col-xs-12">
-              <div class="" style="background-color: #C7C6C2; height: 40px;">
-                <h2 class="text-center" style="color: #EC2587; padding-top: 4px;">EXPERIENCES</h2>
+              <div class="" style="background-color: #C7C6C2; height: 45px;">
+                <h3 class="text-center" style="color: #EC2587; padding-top: 10px; letter-spacing: 6px; font-family: 'Casper'; font-weight: 100;">EXPERIENCES</h3>
               </div>
             </div>
           </div>
@@ -279,7 +319,7 @@
 
             <div class="col-xs-4" >
                 <div class="content" style="margin: 0px 20px 0px 10px; border: 1px solid #aaa; height: 400px;">
-                  <div class="" style="margin: 10px; border: 1px solid #aaa; height: 380px;">
+                  <div class="" style="margin: 10px; border: 1px solid #  aaa; height: 380px;">
                     <img src="" alt="">
                   </div>
                 </div>
@@ -291,8 +331,144 @@
 
           <div class="row">
             <div class="col-xs-12">
-              <div class="" style="background-color: #C7C6C2; height: 40px;">
-                <h2 class="text-center" style="color: #EC2587; padding-top: 4px;">SIGNATURE EVENTS</h2>
+              <div class="" style="background-color: #C7C6C2; height: 45px;">
+                <h3 class="text-center" style="color: #EC2587; padding-top: 10px; letter-spacing: 6px; font-family: 'Casper'; font-weight: 100;">SIGNATURE EVENTS</h3>
+              </div>
+            </div>
+          </div>
+
+          <br>
+
+          <div class="row" style="padding: 0px 20px 0px 20px;">
+            <div class="col-xs-6" >
+                <div class="content" style="margin: 0px 0px 0px 0px; border: 1px solid #aaa; height: 320px;">
+                  <div class="" style="margin: 10px; border: 1px solid #aaa; height: 160px;">
+                    <img src="http://placehold.it/415x160" alt="" class="img-responsive">
+                  </div>
+                  <div class="" style="margin: 10px; border: 1px solid #aaa; height: 125px;">
+                    <img src="http://placehold.it/415x125" alt="" class="img-responsive">
+                  </div>
+                </div>
+                <p class="text-center" style="position: relative; bottom: 10px;"> <a href="#" ><i class="fa fa-plus" style="color: #EC2587; font-weight: 900;"></i></a> </p>
+            </div>
+
+            <div class="col-xs-6" >
+                <div class="content" style="margin: 0px 0px 0px 0px; border: 1px solid #aaa; height: 320px;">
+                  <div class="" style="margin: 10px; border: 1px solid #aaa; height: 160px;">
+                    <img src="http://placehold.it/415x160" alt="" class="img-responsive">
+                  </div>
+                  <div class="" style="margin: 10px; border: 1px solid #aaa; height: 125px;">
+                    <img src="http://placehold.it/415x125" alt="" class="img-responsive">
+                  </div>
+                </div>
+                <p class="text-center" style="position: relative; bottom: 10px;"> <a href="#" ><i class="fa fa-plus" style="color: #EC2587; font-weight: 900;"></i></a> </p>
+            </div>
+          </div>
+
+
+          <div class="row" style="padding: 0px 20px 0px 20px;">
+            <div class="col-xs-6" >
+                <div class="content" style="margin: 0px 0px 0px 0px; border: 1px solid #aaa; height: 320px;">
+                  <div class="" style="margin: 10px; border: 1px solid #aaa; height: 160px;">
+                    <img src="http://placehold.it/415x160" alt="" class="img-responsive">
+                  </div>
+                  <div class="" style="margin: 10px; border: 1px solid #aaa; height: 125px;">
+                    <img src="http://placehold.it/415x125" alt="" class="img-responsive">
+                  </div>
+                </div>
+                <p class="text-center" style="position: relative; bottom: 10px;"> <a href="#" ><i class="fa fa-plus" style="color: #EC2587; font-weight: 900;"></i></a> </p>
+            </div>
+
+            <div class="col-xs-6" >
+                <div class="content" style="margin: 0px 0px 0px 0px; border: 1px solid #aaa; height: 320px;">
+                  <div class="" style="margin: 10px; border: 1px solid #aaa; height: 160px;">
+                    <img src="http://placehold.it/415x160" alt="" class="img-responsive">
+                  </div>
+                  <div class="" style="margin: 10px; border: 1px solid #aaa; height: 125px;">
+                    <img src="http://placehold.it/415x125" alt="" class="img-responsive">
+                  </div>
+                </div>
+                <p class="text-center" style="position: relative; bottom: 10px;"> <a href="#" ><i class="fa fa-plus" style="color: #EC2587; font-weight: 900;"></i></a> </p>
+            </div>
+          </div>
+
+
+          <div class="row" style="padding: 0px 20px 0px 20px;">
+            <div class="col-xs-6" >
+                <div class="content" style="margin: 0px 0px 0px 0px; border: 1px solid #aaa; height: 320px;">
+                  <div class="" style="margin: 10px; border: 1px solid #aaa; height: 160px;">
+                    <img src="http://placehold.it/415x160" alt="" class="img-responsive">
+                  </div>
+                  <div class="" style="margin: 10px; border: 1px solid #aaa; height: 125px;">
+                    <img src="http://placehold.it/415x125" alt="" class="img-responsive">
+                  </div>
+                </div>
+                <p class="text-center" style="position: relative; bottom: 10px;"> <a href="#" ><i class="fa fa-plus" style="color: #EC2587; font-weight: 900;"></i></a> </p>
+            </div>
+
+            <div class="col-xs-6" >
+                <div class="content" style="margin: 0px 0px 0px 0px; border: 1px solid #aaa; height: 320px;">
+                  <div class="" style="margin: 10px; border: 1px solid #aaa; height: 160px;">
+                    <img src="http://placehold.it/415x160" alt="" class="img-responsive">
+                  </div>
+                  <div class="" style="margin: 10px; border: 1px solid #aaa; height: 125px;">
+                    <img src="http://placehold.it/415x125" alt="" class="img-responsive">
+                  </div>
+                </div>
+                <p class="text-center" style="position: relative; bottom: 10px;"> <a href="#" ><i class="fa fa-plus" style="color: #EC2587; font-weight: 900;"></i></a> </p>
+            </div>
+          </div>
+
+
+
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="" style="background-color: #C7C6C2; height: 45px;">
+                <h3 class="text-center" style="color: #EC2587; padding-top: 10px; letter-spacing: 6px; font-family: 'Casper'; font-weight: 100;">KNOWLEDGE</h3>
+              </div>
+            </div>
+          </div>
+
+          <br>
+
+          <div class="row" style="padding: 0px 20px 0px 20px;">
+            <div class="col-xs-12" >
+                <div class="content" style="margin: 0px 0px 0px 0px; border: 1px solid #aaa; height: 350px;">
+                  <div class="" style="margin: 10px; border: 1px solid #aaa; height: 320px;">
+                    <img src="http://placehold.it/1230x450" alt="" class="img-responsive">
+                  </div>
+                </div>
+                <p class="text-center" style="position: relative; bottom: 10px;"> <a href="#" ><i class="fa fa-plus" style="color: #EC2587; font-weight: 900;"></i></a> </p>
+            </div>
+          </div>
+
+          <div class="row" style="padding: 0px 20px 0px 20px;">
+            <div class="col-xs-12" >
+                <div class="content" style="margin: 0px 0px 0px 0px; border: 1px solid #aaa; height: 350px;">
+                  <div class="" style="margin: 10px; border: 1px solid #aaa; height: 320px;">
+                    <img src="http://placehold.it/1230x450" alt="" class="img-responsive">
+                  </div>
+                </div>
+                <p class="text-center" style="position: relative; bottom: 10px;"> <a href="#" ><i class="fa fa-plus" style="color: #EC2587; font-weight: 900;"></i></a> </p>
+            </div>
+          </div>
+
+          <div class="row" style="padding: 0px 20px 0px 20px;">
+            <div class="col-xs-12" >
+                <div class="content" style="margin: 0px 0px 0px 0px; border: 1px solid #aaa; height: 350px;">
+                  <div class="" style="margin: 10px; border: 1px solid #aaa; height: 320px;">
+                    <img src="http://placehold.it/1230x450" alt="" class="img-responsive">
+                  </div>
+                </div>
+                <p class="text-center" style="position: relative; bottom: 10px;"> <a href="#" ><i class="fa fa-plus" style="color: #EC2587; font-weight: 900;"></i></a> </p>
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="" style="background-color: #C7C6C2; height: 45px;">
+                <h3 class="text-center" style="color: #EC2587; padding-top: 10px; letter-spacing: 6px; font-family: 'Casper'; font-weight: 100;">CALENDAR</h3>
               </div>
             </div>
           </div>
@@ -300,26 +476,8 @@
 
           <div class="row">
             <div class="col-xs-12">
-              <div class="" style="background-color: #C7C6C2; height: 40px;">
-                <h2 class="text-center" style="color: #EC2587; padding-top: 4px;">KNOWLEDGE</h2>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="row">
-            <div class="col-xs-12">
-              <div class="" style="background-color: #C7C6C2; height: 40px;">
-                <h2 class="text-center" style="color: #EC2587; padding-top: 4px;">CALENDAR</h2>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="row">
-            <div class="col-xs-12">
-              <div class="" style="background-color: #C7C6C2; height: 40px;">
-                <h2 class="text-center" style="color: #EC2587; padding-top: 4px;">PLAYLIST LOVE ACADEMY</h2>
+              <div class="" style="background-color: #C7C6C2; height: 45px;">
+                <h3 class="text-center" style="color: #EC2587; padding-top: 10px; letter-spacing: 6px; font-family: 'Casper'; font-weight: 100;">PLAYLIST LOVE ACADEMY</h3>
               </div>
             </div>
           </div>
@@ -336,6 +494,41 @@
       </div>
 
 
+      <div class="row">
+        <div class="col-xs-10 col-xs-offset-1">
+          <div class="row" style="padding: 15px; background-color: #D0D1D2; height: 130px;">
+
+            <div class="col-xs-2">
+              <h5 style=" color: #EC2587; font-family; 'Casper';">ABOUT US</h5>
+              <p style="color; #919396; padding-left:10px; font-size: .7em;">
+                <a href="#">About Us</a>
+              </p>
+              <p style="color; #919396; padding-left:10px; font-size: .7em;">
+                <a href="#">Jobs</a>
+              </p>
+              <p style="color; #919396; padding-left:10px; font-size: .7em;">
+                <a href="#">Terms & Condition</a>
+              </p>
+            </div>
+            <div class="col-xs-2">
+              <h5 style=" color: #EC2587; font-family; 'Casper';">SUBMISSION</h5>
+              <p style="color; #919396; padding-left:10px; font-size: .7em;">
+                <a href="#">Teachers</a>
+              </p>
+              <p style="color; #919396; padding-left:10px; font-size: .7em;">
+                <a href="#">Events</a>
+              </p>
+            </div>
+            <div class="col-xs-2">
+              <h5 style=" color: #EC2587; font-family; 'Casper';">ABOUT US</h5>
+            </div>
+            <div class="col-xs-2 col-xs-offset-3">
+              <h5 style=" color: #EC2587; font-family; 'Casper';">ABOUT US</h5>
+            </div>
+
+          </div>
+        </div>
+      </div>
 
     </div>
 
