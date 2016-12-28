@@ -96,35 +96,58 @@
 
       <div class="row">
         <div class="col-xs-12">
-          <div class="contenido-sistema" style="height: 400px; background-color: red;">
+          <div class="lac-carousel">
             <img src="http://placehold.it/1200x400" alt="" class="img img-responsive">
+            <br>
 
             <!-- TODO: Need fix on space, fix separator '-', center items on the menu -->
-            <div class="" style="height: 70px; background-color: #CDCCCB; " id="menu">
+            <div class="lac-menu text-center">
 
               <div class="item-menu-icon pull-left">
                 <i class="fa fa-camera fa-2x"></i>
               </div>
 
-              <div class="item-menu-link pull-left">
-                <p> ABOUT US - </p>
+              <div style="display:table;height:70px;">
+                <div style="display:table-cell;vertical-align:middle;">
+                  <div style="margin-left:auto;margin-right:auto;">
+                    <a> ABOUT US - </a>
+                    <a> TEACHERS & HEALERS & COACHES - </a>
+                  </div>
+                </div>
               </div>
 
-              <div class="item-menu-link pull-left">
-                <p> TEACHERS & HEALERS & COACHES - </p>
+              <div style="display:table;height:70px;">
+                <div style="display:table-cell;vertical-align:middle;">
+                  <div style="margin-left:auto;margin-right:auto;">
+
+                  </div>
+                </div>
               </div>
 
-              <div class="item-menu-link pull-left">
-                <p> EXPERIENCIES - </p>
+              <div style="display:table;height:70px;">
+                <div style="display:table-cell;vertical-align:middle;">
+                  <div style="margin-left:auto;margin-right:auto;">
+                    <p> EXPERIENCIES - </p>
+                  </div>
+                </div>
               </div>
 
-              <div class="item-menu-link pull-left">
-                <p> KNOWLEDGE - </p>
+              <div style="display:table;height:70px;">
+                <div style="display:table-cell;vertical-align:middle;">
+                  <div style="margin-left:auto;margin-right:auto;">
+                    <p> KNOWLEDGE - </p>
+                  </div>
+                </div>
               </div>
 
-              <div class="item-menu-link pull-left">
-                <p> CALENDAR</p>
+              <div style="display:table;height:70px;">
+                <div style="display:table-cell;vertical-align:middle;">
+                  <div style="margin-left:auto;margin-right:auto;">
+                    <p> CALENDAR</p>
+                  </div>
+                </div>
               </div>
+
 
             </div>
           </div>
