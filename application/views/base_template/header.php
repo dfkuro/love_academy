@@ -66,7 +66,7 @@
 
     <!-- We are going to create the header title and the optional menu. -->
 
-    <div class="container">
+    <div class="container" style=¨¨>
 
       <!-- Cabecera principal de todo el sistema -->
       <div class="row">
@@ -98,58 +98,28 @@
         <div class="col-xs-12">
           <div class="lac-carousel">
             <img src="http://placehold.it/1200x400" alt="" class="img img-responsive">
-            <br>
 
-            <!-- TODO: Need fix on space, fix separator '-', center items on the menu -->
+            
             <div class="lac-menu text-center">
 
-              <div class="item-menu-icon pull-left">
-                <i class="fa fa-camera fa-2x"></i>
-              </div>
-
-              <div style="display:table;height:70px;">
-                <div style="display:table-cell;vertical-align:middle;">
-                  <div style="margin-left:auto;margin-right:auto;">
-                    <a> ABOUT US - </a>
-                    <a> TEACHERS & HEALERS & COACHES - </a>
-                  </div>
-                </div>
-              </div>
-
-              <div style="display:table;height:70px;">
-                <div style="display:table-cell;vertical-align:middle;">
-                  <div style="margin-left:auto;margin-right:auto;">
-
-                  </div>
-                </div>
-              </div>
-
-              <div style="display:table;height:70px;">
-                <div style="display:table-cell;vertical-align:middle;">
-                  <div style="margin-left:auto;margin-right:auto;">
-                    <p> EXPERIENCIES - </p>
-                  </div>
-                </div>
-              </div>
-
-              <div style="display:table;height:70px;">
-                <div style="display:table-cell;vertical-align:middle;">
-                  <div style="margin-left:auto;margin-right:auto;">
-                    <p> KNOWLEDGE - </p>
-                  </div>
-                </div>
-              </div>
-
-              <div style="display:table;height:70px;">
-                <div style="display:table-cell;vertical-align:middle;">
-                  <div style="margin-left:auto;margin-right:auto;">
-                    <p> CALENDAR</p>
-                  </div>
-                </div>
-              </div>
+              <ul id="nav">
+                <li><i class="fa fa-camera fa-2x"></i></li>
+                <li> - </li>
+                <li><a href="#">ABOUT US</a></li>
+                <li> - </li>
+                <li><a href="#">TEACHERS & HEALERS & COACHES</a></li>
+                <li> - </li>
+                <li><a href="#">EXPERIENCES</a></li>
+                <li> - </li>
+                <li><a href="#">KNOWLEDGE</a></li>
+                <li> - </li>
+                <li><a href="#">CALENDAR</a></li>
+              </ul>
 
 
             </div>
           </div>
         </div>
       </div>
+      <br>
+      

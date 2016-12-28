@@ -15,7 +15,7 @@
 
 @font-face {
   font-family: 'Casper Italic';
-  src: url('../fonts/Casper Italic.ttf');
+  src: url('../fonts/Casperp Italic.ttf');
 }
 
 
@@ -30,10 +30,39 @@ body{
   padding: 0px;
 }
 
+.container{
+  border: 1px solid #ddd;  
+}
+
+.lac-bordered{
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+.lac-row-padding{
+  padding: 0px 20px 0px 20px;
+}
+
+#select-gender{
+  padding-top: 7px;
+}
+
+#select-gender select{
+  font-size: 0.8em; height: 26px;
+}
+
+
+
+form .form-group {
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+
 /* Cabecera del sitio */
 
 .lac-carousel{
-  height: 400px;
+  /*height: 400px;*/
 }
 
 .lac-menu{
@@ -41,16 +70,32 @@ body{
   background-color: #CDCCCB;
 }
 
-.lac-menu .item-menu p{
+.lac-menu{
   font-family: 'Casper';
-  letter-spacing: 4px;
+  font-size: 1.1em;
+  height: 50px;
 }
 
 
-/* Estilos visuales para la cabecera *
+#nav {
+  text-align:center;
+  position: relative;
+  top: 10px;
+}
+
+#nav li {
+  display:inline;
+}
+
+#nav a {
+  text-decoration: none; 
+  padding:0 10px; /* variable width */
+  color: black;
+  
+}
 
 /* Menu */
-.item-menu-icon{
+/*.item-menu-icon{
   margin: 12px;
   padding: 12px;
   color: #EC2587;
@@ -60,4 +105,30 @@ body{
   color: #000000;
   padding-top: 26px;
   font-size: 1.2em;
+}*/
+
+
+/* Estilos para el newsletter */
+
+
+#lac-newsletter-title{
+  background: #000000; color: #ffffff; padding: 2px 0px 10px 20px;
 }
+
+/* Estilos para los inputs */
+
+.form-group label{
+  font-family: 'Casper';
+  padding: 0px;
+  margin: 0px;
+  font-size: .9em;
+  letter-spacing: 2px;
+  font-weight: lighter;
+}
+
+.form-group input{
+  font-family: 'Casper';
+  padding: 0px;
+  margin: 0px; 
+}
+

@@ -2,51 +2,56 @@
       
 
       <!-- What is love academy and newsletter -->
-      <div class="row">
+      <div class="row lac-row-padding">
 
         <div class="col-xs-8">
-          <img src="http://placehold.it/780x420" alt="" class="img-responsive">
+          <div class="lac-bordered">
+            <img src="http://placehold.it/780x545" alt="" class="img-responsive">
+          </div>
         </div>
 
         <div class="col-xs-4">
 
-          <div class="" style="background: #000000; color: #ffffff; padding: 2px 10px 0px 10px;">
+          <div class="lac-bordered">
+            <div id="lac-newsletter-title" style="">
             <h3>N E W S L E T T E R</h3>
             <p>GREAT DISCOUNTS, FREE LECTURES AND  CONFERENCES, DOWNLOADS AND MORE... </p>
           </div>
-
+          <br>
           <!-- TODO: Fix space between inputs -->
           <form>
             <div class="form-group">
               <label for="form_name">NAME</label>
               <input type="text" class="form-control" id="form_name" placeholder="">
-              <div class="form-group pull-right" style="padding-top: 7px;">
-                <select class="form-control" id="sel1" style="font-size: 0.8em; height: 26px;">
+              <div class="form-group pull-right" id="select-gender">
+                <select class="form-control" >
                   <option>MASCULINE</option>
                   <option>MASCULINE 2</option>
                 </select>
               </div>
             </div>
-
+            <br>
             <div class="form-group">
               <label for="form_birthday">BIRTHDAY</label>
               <input type="date" class="form-control" id="form_birthday" placeholder="">
             </div>
-
+            <br>  
             <div class="form-group">
               <label for="form_country">COUNTRY / CITY</label>
               <input type="text" class="form-control" id="form_country" placeholder="">
             </div>
-
+            <br>  
             <div class="form-group">
               <label for="form_email">E-MAIL</label>
               <input type="email" class="form-control" id="form_email" placeholder="">
             </div>
-
+            <br>
 
             <!-- TODO: Add style to the button then make it a css rule -->
             <button type="submit" class="btn btn-default pull-right" >SUSCRIBE</button>
+            <br>
           </form>
+          </div>
 
         </div>
 
@@ -64,7 +69,7 @@
       <br>
 
       <!-- TODO: Need to fix thumnails -->
-      <div class="row" style="padding: 0px 20px 0px 20px;">
+      <div class="row lac-row-padding">
 
         <div class="col-xs-4" >
 
