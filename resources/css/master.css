@@ -130,5 +130,107 @@ form .form-group {
   font-family: 'Casper';
   padding: 0px;
   margin: 0px; 
+  border-radius: 6px;
 }
+
+
+.lac-title-row{
+  background-color: #C7C6C2;
+  height: 45px;
+}
+
+
+/* Cabeceras de linea para cada titulo de row */
+.lac-title-row h3{
+  color: #EC2587;
+  padding-top: 10px;
+  letter-spacing: 6px;
+  font-family: 'Casper';
+  font-weight: 100;
+}
+
+/* cards info teacher, healer coach */
+
+.lac-card-thc{
+  border: 1px solid #aaa; height: 430px;
+}
+
+.lac-card-thc > div:first-child{
+  margin: 10px; border: 1px solid #aaa; height: 200px;
+}
+
+.lac-card-thc-title{
+  background-color: #CDCCCB; height: 22px;
+}
+
+.lac-card-thc-title > h5{
+  color: #fff; padding: 4px 0pc 0px 4px; font-family: 'Casper';
+}
+
+.lac-card-thc-info{
+  height: 180px; max-height: 190px; position: relative; top: 10px;
+}
+
+.lac-card-thc-info p{
+  font-size: 0.7em;
+}
+
+.lac-card-thc p{
+  position: relative; bottom: 0px;
+}
+
+.lac-card-thc p i{
+  color: #EC2587; font-weight: 900;
+}
+
+
+/* Card para experiences */
+
+.lac-card-experience{
+  border: 1px solid #aaa; height: 500px;
+}
+
+.lac-card-experience div{
+  margin: 10px; border: 1px solid #aaa; height: 480px;
+}
+
+.lac-card-experience + p{
+  position: relative; bottom: 10px;
+}
+
+.lac-card-experience + p a i{
+  color: #EC2587; font-weight: 900;
+}
+
+
+/* Cardas para eventos */
+
+.lac-card-event-img{
+  margin: 0px;
+  border: 1px solid #aaa;
+  height: 390px;
+}
+
+.lac-card-event-img > div:first-child{
+  margin: 10px;
+  border: 1px solid #aaa;
+  height: 200px;
+}
+
+.lac-card-event-img > div:nth-child(2n){
+  margin: 10px;
+  border: 1px solid #aaa;
+  height: 160px;
+}
+
+.lac-card-event-img + p{
+  position: relative;
+  bottom: 10px;
+}
+
+.lac-card-event-img + p a i{
+  color: #EC2587;
+  font-weight: 900;
+}
+
 

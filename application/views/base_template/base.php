@@ -60,8 +60,8 @@
       <!-- Section: TEACHERS & HEALERS & COACHES -->
       <div class="row">
         <div class="col-xs-12">
-          <div class="" style="background-color: #C7C6C2; height: 45px;">
-            <h3 class="text-center" style="color: #EC2587; padding-top: 10px; letter-spacing: 6px; font-family: 'Casper'; font-weight: 100;">TEACHERS & HEALERS & COACHES</h3>
+          <div class="lac-title-row" style="">
+            <h3 class="text-center">TEACHERS & HEALERS & COACHES</h3>
           </div>
         </div>
       </div>
@@ -73,11 +73,11 @@
 
         <div class="col-xs-4" >
 
-            <div style="border: 1px solid #aaa; height: 430px;">
-              <div class="" style="margin: 10px; border: 1px solid #aaa; height: 200px;">
+            <div class="lac-card-thc">
+              <div>
                 <img src="http://placehold.it/325x200" alt="" class="img-responsive">
-                <div class="" style="background-color: #CDCCCB; height: 22px;">
-                  <h5 class="text-center" style="color: #fff; padding: 4px 0pc 0px 4px; font-family: 'Casper';">S A S H A &nbsp; C O B R A</h5>
+                <div class="lac-card-thc-title" >
+                  <h5 class="text-center lac-card-thc-title">S A S H A &nbsp; C O B R A</h5>
                 </div>
               </div>
 
@@ -85,25 +85,25 @@
 
               <div class="row">
                 <div class="col-xs-10 col-xs-offset-1">
-                  <div class="" style="height: 180px; max-height: 190px; position: relative; top: 10px;">
-                    <p class="center-text" style="font-size: 0.7em;">
+                  <div class="lac-card-thc-info">
+                    <p class="center-text">
                       Sasha has been living, training and working with Shantam Nityama for over 8 years and is one of three certified Nitvana Bodywork Practitioners in the world. She now travels globally, sharing the gifts of this work through private sessions and workshops.
                     </p>
                   </div>
                 </div>
               </div>
-              <p class="text-center" style="position: relative; bottom: 0px;"> <a href="#" ><i class="fa fa-plus" style="color: #EC2587; font-weight: 900;"></i></a> </p>
+              <p class="text-center"> <a href="#" ><i class="fa fa-plus"></i></a> </p>
             </div>
 
         </div>
 
         <div class="col-xs-4" >
 
-            <div style="border: 1px solid #aaa; height: 430px;">
-              <div class="" style="margin: 10px; border: 1px solid #aaa; height: 200px;">
+            <div class="lac-card-thc">
+              <div>
                 <img src="http://placehold.it/325x200" alt="" class="img-responsive">
-                <div class="" style="background-color: #CDCCCB; height: 22px;">
-                  <h5 class="text-center" style="color: #fff; padding: 4px 0pc 0px 4px; font-family: 'Casper';">S A S H A &nbsp; C O B R A</h5>
+                <div class="lac-card-thc-title">
+                  <h5 class="text-center lac-card-thc-title">S A S H A &nbsp; C O B R A</h5>
                 </div>
               </div>
 
@@ -111,25 +111,25 @@
 
               <div class="row">
                 <div class="col-xs-10 col-xs-offset-1">
-                  <div class="" style="height: 180px; max-height: 190px; position: relative; top: 10px;">
-                    <p class="center-text" style="font-size: 0.7em;">
+                  <div class="lac-card-thc-info" >
+                    <p class="center-text" >
                       Sasha has been living, training and working with Shantam Nityama for over 8 years and is one of three certified Nitvana Bodywork Practitioners in the world. She now travels globally, sharing the gifts of this work through private sessions and workshops.
                     </p>
                   </div>
                 </div>
               </div>
-              <p class="text-center" style="position: relative; bottom: 0px;"> <a href="#" ><i class="fa fa-plus" style="color: #EC2587; font-weight: 900;"></i></a> </p>
+              <p class="text-center"> <a href="#" ><i class="fa fa-plus"></i></a> </p>
             </div>
 
         </div>
 
         <div class="col-xs-4" >
 
-            <div style="border: 1px solid #aaa; height: 430px;">
-              <div class="" style="margin: 10px; border: 1px solid #aaa; height: 200px;">
+            <div class="lac-card-thc">
+              <div class="lac-card-thc-title">
                 <img src="http://placehold.it/325x200" alt="" class="img-responsive">
-                <div class="" style="background-color: #CDCCCB; height: 22px;">
-                  <h5 class="text-center" style="color: #fff; padding: 4px 0pc 0px 4px; font-family: 'Casper';">S A S H A &nbsp; C O B R A</h5>
+                <div class="lac-card-thc-title">
+                  <h5 class="text-center">S A S H A &nbsp; C O B R A</h5>
                 </div>
               </div>
 
@@ -137,14 +137,14 @@
 
               <div class="row">
                 <div class="col-xs-10 col-xs-offset-1">
-                  <div class="" style="height: 180px; max-height: 190px; position: relative; top: 10px;">
-                    <p class="center-text" style="font-size: 0.7em;">
+                  <div class="lac-card-thc-info">
+                    <p class="center-text">
                       Sasha has been living, training and working with Shantam Nityama for over 8 years and is one of three certified Nitvana Bodywork Practitioners in the world. She now travels globally, sharing the gifts of this work through private sessions and workshops.
                     </p>
                   </div>
                 </div>
               </div>
-              <p class="text-center" style="position: relative; bottom: 0px;"> <a href="#" ><i class="fa fa-plus" style="color: #EC2587; font-weight: 900;"></i></a> </p>
+              <p class="text-center"> <a href="#" ><i class="fa fa-plus"></i></a> </p>
             </div>
 
         </div>
@@ -156,133 +156,144 @@
 
       <div class="row">
         <div class="col-xs-12">
-          <div class="" style="background-color: #C7C6C2; height: 45px;">
-            <h3 class="text-center" style="color: #EC2587; padding-top: 10px; letter-spacing: 6px; font-family: 'Casper'; font-weight: 100;">EXPERIENCES</h3>
+          <div class="lac-title-row" style="">
+            <h3 class="text-center" style="">EXPERIENCES</h3>
           </div>
         </div>
       </div>
 
       <br>
 
-      <div class="row" style="padding: 0px 20px 0px 20px;">
+
+      <div class="lac-row-padding">
 
         <div class="col-xs-4" >
-            <div class="content" style="border: 1px solid #aaa; height: 500px;">
-              <div class="" style="margin: 10px; border: 1px solid #aaa; height: 480px;">
+            <div class="lac-card-experience">
+              <div>
                 <img src="" alt="">
               </div>
             </div>
-            <p class="text-center" style="position: relative; bottom: 10px;"> <a href="#" ><i class="fa fa-plus" style="color: #EC2587; font-weight: 900;"></i></a> </p>
+            <p class="text-center"> <a href="#" ><i class="fa fa-plus"></i></a> </p>
         </div>
-
+        
         <div class="col-xs-4" >
-            <div class="content" style="border: 1px solid #aaa; height: 500px;">
-              <div class="" style="margin: 10px; border: 1px solid #aaa; height: 480px;">
+            <div class="lac-card-experience">
+              <div>
                 <img src="" alt="">
               </div>
             </div>
-            <p class="text-center" style="position: relative; bottom: 10px;"> <a href="#" ><i class="fa fa-plus" style="color: #EC2587; font-weight: 900;"></i></a> </p>
+            <p class="text-center"> <a href="#" ><i class="fa fa-plus"></i></a> </p>
         </div>
 
         <div class="col-xs-4" >
-            <div class="content" style="border: 1px solid #aaa; height: 500px;">
-              <div class="" style="margin: 10px; border: 1px solid #aaa; height: 480px;">
+            <div class="lac-card-experience">
+              <div>
                 <img src="" alt="">
               </div>
             </div>
-            <p class="text-center" style="position: relative; bottom: 10px;"> <a href="#" ><i class="fa fa-plus" style="color: #EC2587; font-weight: 900;"></i></a> </p>
+            <p class="text-center"> <a href="#" ><i class="fa fa-plus"></i></a> </p>
         </div>
+       
 
       </div>
 
 
       <div class="row">
         <div class="col-xs-12">
-          <div class="" style="background-color: #C7C6C2; height: 45px;">
-            <h3 class="text-center" style="color: #EC2587; padding-top: 10px; letter-spacing: 6px; font-family: 'Casper'; font-weight: 100;">SIGNATURE EVENTS</h3>
+          <div class="lac-title-row">
+            <h3 class="text-center" >SIGNATURE EVENTS</h3>
           </div>
         </div>
       </div>
 
       <br>
 
-      <div class="row" style="padding: 0px 20px 0px 20px;">
+      <div class="row lac-row-padding">
+        
         <div class="col-xs-6" >
-            <div class="content" style="margin: 0px 0px 0px 0px; border: 1px solid #aaa; height: 390px;">
-              <div class="" style="margin: 10px; border: 1px solid #aaa; height: 200px;">
-                <img src="http://placehold.it/515x200" alt="" class="img-responsive">
-              </div>
-              <div class="" style="margin: 10px; border: 1px solid #aaa; height: 160px;">
-                <img src="http://placehold.it/515x160" alt="" class="img-responsive">
-              </div>
+          <div class="lac-card-event-img">
+            <div>
+              <img src="http://placehold.it/515x200" alt="" class="img-responsive">
             </div>
-            <p class="text-center" style="position: relative; bottom: 10px;"> <a href="#" ><i class="fa fa-plus" style="color: #EC2587; font-weight: 900;"></i></a> </p>
+            <div class="">
+              <img src="http://placehold.it/515x160" alt="" class="img-responsive">
+            </div>
+          </div>
+          <p class="text-center"> <a href="#" ><i class="fa fa-plus" style=></i></a> </p>
         </div>
 
+
         <div class="col-xs-6" >
-            <div class="content" style="margin: 0px 0px 0px 0px; border: 1px solid #aaa; height: 390px;">
-              <div class="" style="margin: 10px; border: 1px solid #aaa; height: 200px;">
-                <img src="http://placehold.it/515x200" alt="" class="img-responsive">
-              </div>
-              <div class="" style="margin: 10px; border: 1px solid #aaa; height: 160px;">
-                <img src="http://placehold.it/515x160" alt="" class="img-responsive">
-              </div>
+          <div class="lac-card-event-img">
+            <div>
+              <img src="http://placehold.it/515x200" alt="" class="img-responsive">
             </div>
-            <p class="text-center" style="position: relative; bottom: 10px;"> <a href="#" ><i class="fa fa-plus" style="color: #EC2587; font-weight: 900;"></i></a> </p>
+            <div class="">
+              <img src="http://placehold.it/515x160" alt="" class="img-responsive">
+            </div>
+          </div>
+          <p class="text-center"> <a href="#" ><i class="fa fa-plus" style=></i></a> </p>
         </div>
+
       </div>
 
-      <div class="row" style="padding: 0px 20px 0px 20px;">
+      <div class="row lac-row-padding">
+        
         <div class="col-xs-6" >
-            <div class="content" style="margin: 0px 0px 0px 0px; border: 1px solid #aaa; height: 390px;">
-              <div class="" style="margin: 10px; border: 1px solid #aaa; height: 200px;">
-                <img src="http://placehold.it/515x200" alt="" class="img-responsive">
-              </div>
-              <div class="" style="margin: 10px; border: 1px solid #aaa; height: 160px;">
-                <img src="http://placehold.it/515x160" alt="" class="img-responsive">
-              </div>
+          <div class="lac-card-event-img">
+            <div>
+              <img src="http://placehold.it/515x200" alt="" class="img-responsive">
             </div>
-            <p class="text-center" style="position: relative; bottom: 10px;"> <a href="#" ><i class="fa fa-plus" style="color: #EC2587; font-weight: 900;"></i></a> </p>
+            <div class="">
+              <img src="http://placehold.it/515x160" alt="" class="img-responsive">
+            </div>
+          </div>
+          <p class="text-center"> <a href="#" ><i class="fa fa-plus" style=></i></a> </p>
         </div>
 
+
         <div class="col-xs-6" >
-            <div class="content" style="margin: 0px 0px 0px 0px; border: 1px solid #aaa; height: 390px;">
-              <div class="" style="margin: 10px; border: 1px solid #aaa; height: 200px;">
-                <img src="http://placehold.it/515x200" alt="" class="img-responsive">
-              </div>
-              <div class="" style="margin: 10px; border: 1px solid #aaa; height: 160px;">
-                <img src="http://placehold.it/515x160" alt="" class="img-responsive">
-              </div>
+          <div class="lac-card-event-img">
+            <div>
+              <img src="http://placehold.it/515x200" alt="" class="img-responsive">
             </div>
-            <p class="text-center" style="position: relative; bottom: 10px;"> <a href="#" ><i class="fa fa-plus" style="color: #EC2587; font-weight: 900;"></i></a> </p>
+            <div class="">
+              <img src="http://placehold.it/515x160" alt="" class="img-responsive">
+            </div>
+          </div>
+          <p class="text-center"> <a href="#" ><i class="fa fa-plus" style=></i></a> </p>
         </div>
+
       </div>
 
 
-      <div class="row" style="padding: 0px 20px 0px 20px;">
+      <div class="row lac-row-padding">
+        
         <div class="col-xs-6" >
-            <div class="content" style="margin: 0px 0px 0px 0px; border: 1px solid #aaa; height: 390px;">
-              <div class="" style="margin: 10px; border: 1px solid #aaa; height: 200px;">
-                <img src="http://placehold.it/515x200" alt="" class="img-responsive">
-              </div>
-              <div class="" style="margin: 10px; border: 1px solid #aaa; height: 160px;">
-                <img src="http://placehold.it/515x160" alt="" class="img-responsive">
-              </div>
+          <div class="lac-card-event-img">
+            <div>
+              <img src="http://placehold.it/515x200" alt="" class="img-responsive">
             </div>
-            <p class="text-center" style="position: relative; bottom: 10px;"> <a href="#" ><i class="fa fa-plus" style="color: #EC2587; font-weight: 900;"></i></a> </p>
+            <div class="">
+              <img src="http://placehold.it/515x160" alt="" class="img-responsive">
+            </div>
+          </div>
+          <p class="text-center"> <a href="#" ><i class="fa fa-plus" style=></i></a> </p>
         </div>
 
+
         <div class="col-xs-6" >
-            <div class="content" style="margin: 0px 0px 0px 0px; border: 1px solid #aaa; height: 390px;">
-              <div class="" style="margin: 10px; border: 1px solid #aaa; height: 200px;">
-                <img src="http://placehold.it/515x200" alt="" class="img-responsive">
-              </div>
-              <div class="" style="margin: 10px; border: 1px solid #aaa; height: 160px;">
-                <img src="http://placehold.it/515x160" alt="" class="img-responsive">
-              </div>
+          <div class="lac-card-event-img">
+            <div>
+              <img src="http://placehold.it/515x200" alt="" class="img-responsive">
             </div>
-            <p class="text-center" style="position: relative; bottom: 10px;"> <a href="#" ><i class="fa fa-plus" style="color: #EC2587; font-weight: 900;"></i></a> </p>
+            <div class="">
+              <img src="http://placehold.it/515x160" alt="" class="img-responsive">
+            </div>
+          </div>
+          <p class="text-center"> <a href="#" ><i class="fa fa-plus" style=></i></a> </p>
         </div>
+
       </div>
 
 
@@ -290,15 +301,15 @@
 
       <div class="row">
         <div class="col-xs-12">
-          <div class="" style="background-color: #C7C6C2; height: 45px;">
-            <h3 class="text-center" style="color: #EC2587; padding-top: 10px; letter-spacing: 6px; font-family: 'Casper'; font-weight: 100;">KNOWLEDGE</h3>
+          <div class="lac-title-row">
+            <h3 class="text-center">KNOWLEDGE</h3>
           </div>
         </div>
       </div>
 
       <br>
 
-        <div class="row" style="padding: 0px 20px 0px 20px;">
+        <div class="row lac-row-padding">
           <div class="col-xs-12" >
               <div class="content" style="margin: 0px 0px 0px 0px; border: 1px solid #aaa; height: 400px;">
                 <div class="" style="margin: 10px; border: 1px solid #aaa; height: 375px;">
@@ -309,7 +320,7 @@
           </div>
         </div>
 
-        <div class="row" style="padding: 0px 20px 0px 20px;">
+        <div class="row lac-row-padding">
           <div class="col-xs-12" >
               <div class="content" style="margin: 0px 0px 0px 0px; border: 1px solid #aaa; height: 400px;">
                 <div class="" style="margin: 10px; border: 1px solid #aaa; height: 375px;">
@@ -320,7 +331,7 @@
           </div>
         </div>
 
-        <div class="row" style="padding: 0px 20px 0px 20px;">
+        <div class="row lac-row-padding">
           <div class="col-xs-12" >
               <div class="content" style="margin: 0px 0px 0px 0px; border: 1px solid #aaa; height: 400px;">
                 <div class="" style="margin: 10px; border: 1px solid #aaa; height: 375px;">
@@ -334,8 +345,8 @@
 
         <div class="row">
           <div class="col-xs-12">
-            <div class="" style="background-color: #C7C6C2; height: 45px;">
-              <h3 class="text-center" style="color: #EC2587; padding-top: 10px; letter-spacing: 6px; font-family: 'Casper'; font-weight: 100;">CALENDAR</h3>
+            <div class="lac-title-row">
+              <h3 class="text-center">CALENDAR</h3>
             </div>
           </div>
         </div>
@@ -343,8 +354,8 @@
 
         <div class="row">
           <div class="col-xs-12">
-            <div class="" style="background-color: #C7C6C2; height: 45px;">
-              <h3 class="text-center" style="color: #EC2587; padding-top: 10px; letter-spacing: 6px; font-family: 'Casper'; font-weight: 100;">PLAYLIST LOVE ACADEMY</h3>
+            <div class="lac-title-row">
+              <h3 class="text-center">PLAYLIST LOVE ACADEMY</h3>
             </div>
           </div>
         </div>
