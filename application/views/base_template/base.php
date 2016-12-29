@@ -311,34 +311,34 @@
 
         <div class="row lac-row-padding">
           <div class="col-xs-12" >
-              <div class="content" style="margin: 0px 0px 0px 0px; border: 1px solid #aaa; height: 400px;">
-                <div class="" style="margin: 10px; border: 1px solid #aaa; height: 375px;">
+              <div class="lac-card-knowledge">
+                <div>
                   <img src="http://placehold.it/1080x375" alt="" class="img-responsive">
                 </div>
               </div>
-              <p class="text-center" style="position: relative; bottom: 10px;"> <a href="#" ><i class="fa fa-plus" style="color: #EC2587; font-weight: 900;"></i></a> </p>
+              <p class="text-center"> <a href="#" ><i class="fa fa-plus"></i></a> </p>
           </div>
         </div>
 
         <div class="row lac-row-padding">
           <div class="col-xs-12" >
-              <div class="content" style="margin: 0px 0px 0px 0px; border: 1px solid #aaa; height: 400px;">
-                <div class="" style="margin: 10px; border: 1px solid #aaa; height: 375px;">
-                  <img src="http://placehold.it/1080x375" alt="" class="img-responsive">
-                </div>
+            <div class="lac-card-knowledge">
+              <div>
+                <img src="http://placehold.it/1080x375" alt="" class="img-responsive">
               </div>
-              <p class="text-center" style="position: relative; bottom: 10px;"> <a href="#" ><i class="fa fa-plus" style="color: #EC2587; font-weight: 900;"></i></a> </p>
+            </div>
+            <p class="text-center"> <a href="#" ><i class="fa fa-plus"></i></a> </p>
           </div>
         </div>
 
         <div class="row lac-row-padding">
           <div class="col-xs-12" >
-              <div class="content" style="margin: 0px 0px 0px 0px; border: 1px solid #aaa; height: 400px;">
-                <div class="" style="margin: 10px; border: 1px solid #aaa; height: 375px;">
+              <div class="lac-card-knowledge">
+                <div>
                   <img src="http://placehold.it/1080x375" alt="" class="img-responsive">
                 </div>
               </div>
-              <p class="text-center" style="position: relative; bottom: 10px;"> <a href="#" ><i class="fa fa-plus" style="color: #EC2587; font-weight: 900;"></i></a> </p>
+              <p class="text-center"> <a href="#" ><i class="fa fa-plus"></i></a> </p>
           </div>
         </div>
 

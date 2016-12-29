@@ -234,3 +234,27 @@ form .form-group {
 }
 
 
+/* Cards para knowledge */
+
+.lac-card-knowledge{
+  margin: 0px 0px 0px 0px;
+  border: 1px solid #aaa;
+  height: 400px;
+}
+
+.lac-card-knowledge div{
+  margin: 10px; border: 1px solid #aaa; height: 375px;
+}
+
+.lac-card-knowledge + p{
+  position: relative; bottom: 10px;
+}
+
+.lac-card-knowledge + p a i{
+  color: #EC2587;
+  font-weight: 900;
+}
+
+
+
+

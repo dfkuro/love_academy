@@ -39,6 +39,14 @@
 </div>
 <!-- <div class="container" style="background-color: #fff;"> -->
 
+<!-- Scripts del sitio -->
+
+<!-- cargamos el componente de jquery -->
+<script type="text/javascript" src="<?=base_url('vendor/components/jquery/jquery.min.js')?>"></script>
+<!-- Cargamos la libreria para las tablas  -->
+<script type="text/javascript" src="<?=base_url('vendor/components/jquery/jquery.min.js')?>"></script>
+<script type="text/javascript" src="<?=base_url('resources/js/script.js')?>"></script>
+
 </body>
 
 <!-- <script src="<?=base_url('resources')?>" type="text/javascript"></script> -->
