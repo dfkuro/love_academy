@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "dcdb256a8dab72ec86d78fa2915c698e",
-    "content-hash": "f7cc6201edc1a6e71802156c28ae3fd1",
+    "hash": "d9ad487ccb367f52bca2107de3ca2c96",
+    "content-hash": "e892d17e90575da4fdfdf591101982f4",
     "packages": [
         {
             "name": "components/jquery",
@@ -97,6 +97,44 @@
                 "web"
             ],
             "time": "2016-07-25 15:51:55"
+        },
+        {
+            "name": "wenzhixin/bootstrap-table",
+            "version": "1.11.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wenzhixin/bootstrap-table.git",
+                "reference": "ae3f6bf016d45adaa31c94fad1f677ac7d094e24"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wenzhixin/bootstrap-table/zipball/ae3f6bf016d45adaa31c94fad1f677ac7d094e24",
+                "reference": "ae3f6bf016d45adaa31c94fad1f677ac7d094e24",
+                "shasum": ""
+            },
+            "require": {
+                "twitter/bootstrap": ">=2.3.0"
+            },
+            "type": "component",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "wenzhixin2010",
+                    "email": "wenzhixin2010@gmail.com"
+                }
+            ],
+            "description": "An extended Bootstrap table with radio, checkbox, sort, pagination and other features.",
+            "homepage": "https://github.com/wenzhixin/bootstrap-table",
+            "keywords": [
+                "bootstrap",
+                "pagination",
+                "table",
+                "tablesort"
+            ],
+            "time": "2016-07-02 09:04:07"
         }
     ],
     "packages-dev": [],

@@ -351,6 +351,17 @@
           </div>
         </div>
 
+        <br>
+
+        <div class="row lac-row-padding">
+          <div class="col-xs-12">
+            <table id="calendar" class="lac-table"></table>
+          </div>
+        </div>
+
+    
+
+        
 
         <div class="row">
           <div class="col-xs-12">

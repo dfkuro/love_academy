@@ -44,7 +44,10 @@
 <!-- cargamos el componente de jquery -->
 <script type="text/javascript" src="<?=base_url('vendor/components/jquery/jquery.min.js')?>"></script>
 <!-- Cargamos la libreria para las tablas  -->
-<script type="text/javascript" src="<?=base_url('vendor/components/jquery/jquery.min.js')?>"></script>
+<script type="text/javascript" src="<?=base_url('vendor/wenzhixin/bootstrap-table/dist/bootstrap-table.min.js')?>"></script>
+<script type="text/javascript" src="<?=base_url('vendor/wenzhixin/bootstrap-table/dist/bootstrap-table-locale-all.min.js')?>"></script>
+<script type="text/javascript" src="<?=base_url('vendor/wenzhixin/bootstrap-table/dist/extensions/group-by-v2/bootstrap-table-group-by.min.js')?>"></script>
+
 <script type="text/javascript" src="<?=base_url('resources/js/script.js')?>"></script>
 
 </body>

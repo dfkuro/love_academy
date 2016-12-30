@@ -93,5 +93,45 @@
             "responsive",
             "web"
         ]
+    },
+    {
+        "name": "wenzhixin/bootstrap-table",
+        "version": "1.11.0",
+        "version_normalized": "1.11.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/wenzhixin/bootstrap-table.git",
+            "reference": "ae3f6bf016d45adaa31c94fad1f677ac7d094e24"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/wenzhixin/bootstrap-table/zipball/ae3f6bf016d45adaa31c94fad1f677ac7d094e24",
+            "reference": "ae3f6bf016d45adaa31c94fad1f677ac7d094e24",
+            "shasum": ""
+        },
+        "require": {
+            "twitter/bootstrap": ">=2.3.0"
+        },
+        "time": "2016-07-02 09:04:07",
+        "type": "component",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "wenzhixin2010",
+                "email": "wenzhixin2010@gmail.com"
+            }
+        ],
+        "description": "An extended Bootstrap table with radio, checkbox, sort, pagination and other features.",
+        "homepage": "https://github.com/wenzhixin/bootstrap-table",
+        "keywords": [
+            "bootstrap",
+            "pagination",
+            "table",
+            "tablesort"
+        ]
     }
 ]

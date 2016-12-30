@@ -9,6 +9,8 @@
     <meta name="author" content="">
     <link rel="icon" href="<?=base_url( 'assets/favicon.ico' )?>">
     <link rel="stylesheet" href="<?=base_url('resources/font_awesome/css/font-awesome.min.css')?>">
+    <link rel="stylesheet" type="text/css" href="<?=base_url('vendor/wenzhixin/bootstrap-table/dist/bootstrap-table.min.css')?>">
+    <link rel="stylesheet" type="text/css" href="<?=base_url('vendor/wenzhixin/bootstrap-table/dist/bootstrap-table-group-bycss')?>">
     <link rel="stylesheet" href="<?=base_url('resources/css/master.css')?>">
 
     <title>Love Academy</title>
