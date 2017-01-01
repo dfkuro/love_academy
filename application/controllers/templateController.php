@@ -31,4 +31,10 @@ class templateController extends CI_Controller {
 		$this->load->view('base_template/footer');
 	}
 
+	public function dfk001(){
+		$this->load->view('base_template/header');
+		$this->load->view('lac/lac_dfk001');
+		$this->load->view('base_template/footer');	
+	}
+
 }

@@ -52,6 +52,10 @@ body{
 }
 
 
+.row-title{
+  
+}
+
 
 form .form-group {
     margin-top: 0;
@@ -286,6 +290,7 @@ form .form-group {
 }
 
 .lac-event-day{
+  line-height: 50px;
   font-size: 2.5em;
   padding: 0px 0px 0px 10px !important;
   margin: 0px;
@@ -293,6 +298,7 @@ form .form-group {
 }
 
 .lac-event-title{
+  line-height: 50px;
   font-size: 1.3em;
   font-family: 'Casper';
   text-decoration: underline;
@@ -307,7 +313,7 @@ form .form-group {
   padding-left: 10px;
   position: relative;
   top: 18px;
-  color: rgba(145,147,150, 0.4);
+  color: rgba(145,147,150, 0.9);
   font-family: 'Casper';
   font-size: .9em;
 }
@@ -319,4 +325,45 @@ form .form-group {
 }
 
 
+/* Estilo dkf001 */
 
+.lac-card-special .title{
+  height: 50px;
+  line-height: 50px;
+  background-color: #CDCCCB;
+  color: #fff;
+  font-size: 1.4em;
+  letter-spacing: 4px;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Casper'
+}
+
+.lac-video{
+  padding: 25px;
+  border: 1px solid #CDCCCB;
+}
+
+.lac-text-quote > p{
+  font-family: 'Casper Bold';
+  font-size: 1.2em;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.lac-text-explanation p:first-child{
+  color: rgba(145,147,150, 1);
+  font-family: 'Casper';
+  font-size: 2.5em;
+  margin: 0px;
+  padding: 0px;
+  letter-spacing: 8px;
+}
+
+.lac-text-explanation p{
+  font-size: 1.2em;
+  color: rgba(145,147,150, 0.9);
+  font-family: 'Casper';
+  text-align: justify;
+  text-justify: inter-word;
+}
