@@ -56,4 +56,7 @@ $route['translate_uri_dashes'] = FALSE;
 
 $route['maqueta'] = 'templateController/maqueta';
 $route['dfk001'] = 'templateController/dfk001';
+$route['session'] = 'templateController/session';
+
+
 

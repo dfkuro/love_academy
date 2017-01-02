@@ -37,4 +37,11 @@ class templateController extends CI_Controller {
 		$this->load->view('base_template/footer');	
 	}
 
+
+	public function session(){
+		$this->load->view('base_template/header');
+		$this->load->view('lac/session');
+		$this->load->view('base_template/footer');
+	}
+
 }

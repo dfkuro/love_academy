@@ -23,7 +23,7 @@
             <div class="form-group">
               <label for="form_name">NAME</label>
               <input type="text" class="form-control" id="form_name" placeholder="">
-              <div class="form-group pull-right" id="select-gender">
+              <div class="form-group pull-right lac-select">
                 <select class="form-control" >
                   <option>MASCULINE</option>
                   <option>MASCULINE 2</option>

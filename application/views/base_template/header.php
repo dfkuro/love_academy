@@ -68,7 +68,7 @@
 
     <!-- We are going to create the header title and the optional menu. -->
 
-    <div class="container" style=¨¨>
+    <div class="container" style="background-color: rgba(145,147,150, 0.1);">
 
       <!-- Cabecera principal de todo el sistema -->
       <div class="row">
@@ -82,9 +82,15 @@
             </div>
 
             <div class="social pull-right" style="margin: 30px;">
-              <i class="fa fa-facebook"></i>
-              <i class="fa fa-vine"></i>
-              <i class="fa fa-youtube"></i>
+              <a href="#">
+                <img src="<?=base_url('resources/images/icons/social_facebook.png')?>" style="height: 25px; padding-left: 10px;">
+              </a>
+              <a href="#">
+                <img src="<?=base_url('resources/images/icons/social_vimeo.png')?>" style="height: 25px; padding-left: 10px;">
+              </a>
+              <a href="#">
+                <img src="<?=base_url('resources/images/icons/social_youtube.png')?>" style="height: 25px; padding-left: 10px;">
+              </a>
             </div>
 
             <div class="login pull-right" style="margin: 30px;">
@@ -105,7 +111,7 @@
             <div class="lac-menu text-center">
 
               <ul id="nav">
-                <li><i class="fa fa-camera fa-2x"></i></li>
+                <li style="padding-right: 20px;"><img src="<?=base_url('resources/images/icons/icon_home.png')?>"></li>
                 <li> - </li>
                 <li><a href="#">ABOUT US</a></li>
                 <li> - </li>

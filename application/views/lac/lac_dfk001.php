@@ -85,16 +85,118 @@
           </div>
 
           <div class="row">
-            <h2 class="row-title">Testimonials</h2>
+            <div class="col-xs-12">
+              <h2 class="title-row">Testimonials</h2>
+            </div>
+          </div>
+
+          <div class="row testimonials">
+            <div class="col-xs-6">
+              <p>
+                "Our work together has genuinely been a life-changing experience. The sessions were insightful, nurturing, challenging, and ultimately helped me become a better version of myself. Sessions has helped me improve my life in numerous ways and the benefits are immense. I only wish I got myself help sooner."
+              </p>
+              <p>
+                "Our work together has genuinely been a life-changing experience. The sessions were insightful, nurturing, challenging, and ultimately helped me become a better version of myself. Sessions has helped me improve my life in numerous ways and the benefits are immense. I only wish I got myself help sooner."
+              </p>
+            </div>
+            <div class="col-xs-6">
+              <p>
+                "Our work together has genuinely been a life-changing experience. The sessions were insightful, nurturing, challenging, and ultimately helped me become a better version of myself. Sessions has helped me improve my life in numerous ways and the benefits are immense. I only wish I got myself help sooner."
+              </p>
+              <p>
+                "Our work together has genuinely been a life-changing experience. The sessions were insightful, nurturing, challenging, and ultimately helped me become a better version of myself. Sessions has helped me improve my life in numerous ways and the benefits are immense. I only wish I got myself help sooner."
+              </p>
+            </div>
           </div>
 
         </div>
 
-        <div class="col-xs-4">
-          
-        </div>
+        
 
       </div> 
+
+      <div class="col-xs-4">
+
+        <div class="lac-bordered">
+          <div id="lac-newsletter-title" style="">
+          <h3>N E W S L E T T E R</h3>
+          <p>GREAT DISCOUNTS, FREE LECTURES AND  CONFERENCES, DOWNLOADS AND MORE... </p>
+        </div>
+        <br>
+        <!-- TODO: Fix space between inputs -->
+        <form>
+          <div class="form-group">
+            <label for="form_name">NAME</label>
+            <input type="text" class="form-control" id="form_name" placeholder="">
+            <div class="form-group pull-right" id="select-gender">
+              <select class="form-control" >
+                <option>MASCULINE</option>
+                <option>MASCULINE 2</option>
+              </select>
+            </div>
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="form_birthday">BIRTHDAY</label>
+            <input type="date" class="form-control" id="form_birthday" placeholder="">
+          </div>
+          <br>  
+          <div class="form-group">
+            <label for="form_country">COUNTRY / CITY</label>
+            <input type="text" class="form-control" id="form_country" placeholder="">
+          </div>
+          <br>  
+          <div class="form-group">
+            <label for="form_email">E-MAIL</label>
+            <input type="email" class="form-control" id="form_email" placeholder="">
+          </div>
+          <br>
+
+          <!-- TODO: Add style to the button then make it a css rule -->
+          <button type="submit" class="btn btn-default pull-right" >SUSCRIBE</button>
+          <br>
+        </form>
+        </div>
+
+      </div>
+
+
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="lac-title-row" style="">
+            <h3 class="text-center">CALENDAR</h3>
+          </div>
+        </div>
+      </div>
+
+      <br>
+
+      <div class="row lac-row-padding">
+        <div class="col-xs-12">
+          <table id="calendar"></table>  
+        </div>
+      </div>
+
+    <br>
+
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="lac-title-row" style="">
+            <h3 class="text-center">DOWNLOADS</h3>
+          </div>
+        </div>
+      </div>
+
+      <br>
+
+      <div class="row lac-row-padding">
+        <div class="col-xs-12">
+          <table id="downloads"></table>  
+        </div>
+      </div>
+
+      <br>
+
     </div>
     
   </div>

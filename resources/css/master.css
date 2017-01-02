@@ -1,6 +1,28 @@
 /* Estilo principal de la pagina de love academy*/
 
 
+/* Overriding bootstrap styles */
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+  border-color: rgba(236,37,135, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(236,37,135, 0.6);
+  outline: 0 none;
+}
+
 /*Estilos para generales*/
 
 @font-face {
@@ -23,11 +45,21 @@
 html{
   margin: 0px;
   padding: 0px;
+  /*background-color: rgba(145,147,150, 0.1);*/
+  font-family: 'Casper';
 }
 
 body{
   margin: 0px;
   padding: 0px;
+}
+
+button{
+  font-family: 'Casper';
+}
+
+.btn{
+  letter-spacing: 2px;
 }
 
 .container{
@@ -43,24 +75,55 @@ body{
   padding: 0px 20px 0px 20px;
 }
 
-#select-gender{
+.lac-select{
   padding-top: 7px;
 }
 
-#select-gender select{
+.lac-select select{
   font-size: 0.8em; height: 26px;
 }
 
-
-.row-title{
-  
+.title-text{
+  font: 'Casper Bold';
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-weight: 900;
 }
+
+.subtitle-text{
+  font: 'Casper';
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: rgba(145,147,150, 0.9);
+}
+
+.title-row{
+  font: 'Casper Bold';
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.testimonials{
+  color: rgba(145,147,150, 0.9);
+  font-family: 'Casper Italic';
+  text-align: justify;
+} 
 
 
 form .form-group {
     margin-top: 0;
     margin-bottom: 0px;
 }
+
+
+
+form .form-group input{
+    height: 50px;
+    background-color: transparent;
+    border-radius: 0;
+}
+
+
 
 
 /* Cabecera del sitio */
@@ -366,4 +429,20 @@ form .form-group {
   font-family: 'Casper';
   text-align: justify;
   text-justify: inter-word;
+}
+
+
+/* Estilos para descripcion de sesion */
+
+.row-info{
+  height: 60px;
+  line-height: 60px;
+  background-color: #C7C6C2;
+}
+.row-info span{
+  font-family: 'Casper';
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 1.4em;
+  letter-spacing: 4px;
 }
