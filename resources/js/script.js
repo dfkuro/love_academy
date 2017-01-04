@@ -35,6 +35,16 @@ $(function() {
         title_link: "MOON DANCE",
         date: "OCTOBER 2016",
         title_type: "MOON DANCE"
+    },{
+        id: 1,
+        day: '16',
+        title: 'MOON DANCE / ECSTATIC DANCE',
+        type: 'EXPERIENCE',
+        place: 'CIUDAD DE MEXICO',
+        time: '21:00',
+        title_link: "MOON DANCE",
+        date: "OCTOBER 2016",
+        title_type: "MOON DANCE"
     }, {
         id: 2,
         day: '18',

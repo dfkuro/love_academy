@@ -105,7 +105,7 @@
       <div class="row">
         <div class="col-xs-12">
           <div class="lac-carousel">
-            <img src="http://lorempixel.com/1400/500/fashion" alt="" class="img img-responsive">
+            <img src="http://lorempixel.com/1400/500/cats" alt="" class="img img-responsive">
 
             
             <div class="lac-menu text-center">
