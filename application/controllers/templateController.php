@@ -44,4 +44,16 @@ class templateController extends CI_Controller {
 		$this->load->view('base_template/footer');
 	}
 
+	public function registration_profile(){
+		$this->load->view('base_template/header');
+		$this->load->view('lac/registration_profile');
+		$this->load->view('base_template/footer');
+	}
+
+	public function profile(){
+		$this->load->view('base_template/header');
+		$this->load->view('lac/profile');
+		$this->load->view('base_template/footer');
+	}
+
 }

@@ -7,53 +7,62 @@
         <div class="row">
           
           <div class="col-xs-12">
-            <h2 class="title-text">NITVANA BODYWORK</h2>
-            <p class="subtitle-text">ENERGY WORK</p>
+            <h2 class="title-text" style="padding-bottom: 10px; border-bottom: 3px solid #000;">REGISTRATION (PROFILE)</h2>
           </div>
 
         </div>
-
-        <div class="row">
-          <div class="col-xs-12">
-            <div class="row-info">
-              <span class="pull-left">PRIVATE SESSION 3 HRS. PER SESSION</span>
-              <span class="pull-right"><button class="btn btn-default btn-lg">$2200.00 USD</button></span>
-            </div>
-          </div>
-        </div>
-
-        <br>
-  
-        <div class="row">
-          <div class="col-xs-12">
-            <p style="font-size: 1.3em;">
-              Nitvana Bodywork sessions are highly recommended as an introduction to the work. These sessions create a solid foundation and a felt sense experience of many concepts and insights covered in the Consultations and Regenerating Sessions, for easier and faster integration.
-
-            </p>
-          </div>
-        </div>
-
-        <br>
-
-        <div class="row">
-          <div class="col-xs-12" style="letter-spacing: 4px;">
-            <h4>AVAILABLE DATES</h4>
-          </div>
-        </div>
-  
-        <div class="row">
-          <div class="col-xs-12">
-            <!-- Falta crear estilo propio para esta tabla. -->
-            <table id="online_sessions"></table>
-          </div>
-        </div>
-
-        <br>
 
         <div class="row">
           <div class="col-xs-12">
             <form>
-            
+              
+              <div class="form-group">
+                <div class="col-xs-4" style="padding-left: 0; padding-right: 0;">
+                  <img src="http://placehold.it/250x250" class="img-responsive" style="width: 250px; height: 250px; border: 1px solid #000;">
+                  <p class="help-block text-center">UPLOAD IMAGE</p>
+                </div>
+                <div class="col-xs-8" style="">
+                  <label for="pwd">DISPLAY NAME *</label>
+                  <input type="email" class="form-control" id="email">
+                  <br>
+                  <label for="pwd">BIO</label>
+                  <textarea type="email" class="form-control" id="email" style="height: 142px; background-color: transparent;"></textarea>
+                </div>
+              </div>
+
+              <div class="clearfix"></div>
+
+              <hr style="border: 1px solid #000;">
+
+              <h5 class="lac-letter-spacing">YOUR LINKS (OPTIONAL)</h5>
+
+              <hr>
+
+              <div class="form-group">
+                <label for="form_birthday">FACEBOOK</label>
+                <input type="text" class="form-control" id="form_birthday" placeholder="">
+              </div>
+
+              <br>
+
+              <div class="form-group">
+                <label for="form_birthday">INSTAGRAM</label>
+                <input type="text" class="form-control" id="form_birthday" placeholder="">
+              </div>
+
+              <br>
+
+              <div class="form-group">
+                <label for="form_birthday">TWITTER</label>
+                <input type="text" class="form-control" id="form_birthday" placeholder="">
+              </div>
+
+              <br>
+
+              <hr style="border: 1px solid #000;">
+
+              <br>
+
               <div class="form-group">
                 <label for="name">NAME *</label>
                 <br>
@@ -201,86 +210,24 @@
     
               <div class="clearfix"></div>
 
-              <hr style="border: 1px solid #000;">
-      
-              <p class="lac-letter-spacing">
-                ADDITIONAL COMMENTS
-                <br>
-                Please include a brief summary of your interest in the work.
-              </p>
-              
-
               <div class="form-group">
+                <label for="pwd">HOW DID YOU HEARD ABOUT US?</label>
                 <input type="email" class="form-control" id="email">
               </div>
 
               <div class="clearfix"></div>
-
-              <p class="lac-letter-spacing">
-                PROCESS
-                <br>
-                After the free registration we will send you a e-mail with location options, date, time and recommendations.
-              </p>
-
-              <hr>
-              <p class="lac-letter-spacing">
-                After session data confirmed we will send you a link to make the payment.
-              </p>
-
-              <div class="clearfix"></div>
-      
+              <br>
+              
               <button type="submit" class="btn btn-default pull-right">Submit</button>
+
             </form>
           </div>
         </div>
-
-
       </div>
 
       <div class="col-xs-4">
-        <div class="lac-bordered">
-          <div id="lac-newsletter-title" style="">
-          <h3>N E W S L E T T E R</h3>
-          <p>GREAT DISCOUNTS, FREE LECTURES AND  CONFERENCES, DOWNLOADS AND MORE... </p>
-        </div>
-        <br>
-        <!-- TODO: Fix space between inputs -->
-        <form>
-          <div class="form-group">
-            <label for="form_name">NAME</label>
-            <input type="text" class="form-control" id="form_name" placeholder="">
-            <div class="form-group pull-right lac-select">
-              <select class="form-control" >
-                <option>MASCULINE</option>
-                <option>MASCULINE 2</option>
-              </select>
-            </div>
-          </div>
-          <br>
-          <div class="form-group">
-            <label for="form_birthday">BIRTHDAY</label>
-            <input type="date" class="form-control" id="form_birthday" placeholder="">
-          </div>
-          <br>  
-          <div class="form-group">
-            <label for="form_country">COUNTRY / CITY</label>
-            <input type="text" class="form-control" id="form_country" placeholder="">
-          </div>
-          <br>  
-          <div class="form-group">
-            <label for="form_email">E-MAIL</label>
-            <input type="email" class="form-control" id="form_email" placeholder="">
-          </div>
-          <br>
-
-          <!-- TODO: Add style to the button then make it a css rule -->
-          <button type="submit" class="btn btn-default pull-right" >SUSCRIBE</button>
-          <br>
-        </form>
-        </div>
       </div>
 
-      
     </div>
 
   </div>

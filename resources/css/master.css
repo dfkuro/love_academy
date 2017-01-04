@@ -71,6 +71,10 @@ button{
   border: 1px solid #ddd;
 }
 
+.lac-letter-spacing{
+  letter-spacing: 4px;
+}
+
 .lac-row-padding{
   padding: 0px 20px 0px 20px;
 }
@@ -116,8 +120,8 @@ form .form-group {
 }
 
 
-
-form .form-group input{
+/* De nuestro formulario definimos todos l */
+form .form-group input:not([type=radio]){
     height: 50px;
     background-color: transparent;
     border-radius: 0;
