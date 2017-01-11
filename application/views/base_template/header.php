@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="<?=base_url('vendor/wenzhixin/bootstrap-table/dist/bootstrap-table.min.css')?>">
     <link rel="stylesheet" type="text/css" href="<?=base_url('vendor/wenzhixin/bootstrap-table/dist/bootstrap-table-group-bycss')?>">
     <link rel="stylesheet" href="<?=base_url('resources/css/master.css')?>">
+    <link rel="stylesheet" href="<?=base_url('resources/css/master2.css')?>">
 
     <title>Love Academy</title>
 
@@ -81,6 +82,10 @@
               <h2 style="color: #EC2587; font-weight: 600;" ><i class="fa fa-heart pull-left"></i> LOVE ACADEMY</h2>
             </div>
 
+            <div class="login pull-right" style="margin: 30px;">
+              SIGN UP / LOG ING
+            </div>
+
             <div class="social pull-right" style="margin: 30px;">
               <a href="#">
                 <img src="<?=base_url('resources/images/icons/social_facebook.png')?>" style="height: 25px; padding-left: 10px;">
@@ -91,10 +96,6 @@
               <a href="#">
                 <img src="<?=base_url('resources/images/icons/social_youtube.png')?>" style="height: 25px; padding-left: 10px;">
               </a>
-            </div>
-
-            <div class="login pull-right" style="margin: 30px;">
-              SIGN UP / LOG ING
             </div>
 
           </div>

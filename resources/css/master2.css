@@ -1,0 +1,250 @@
+.lac-article{
+    margin-top: 40px;
+}
+
+.lac-article-btm{
+    margin-bottom: 80px;
+}
+
+.lac-banner{
+    margin-top: 10px; 
+    margin-bottom: 20px;
+}
+
+.lac-tittle-card-bg{
+    background-color: #CDCCCB;
+    height: 100px;
+    margin-top: -20px;
+}
+
+.lac-tittle-card-font{
+    font-size: 50px; 
+    color: #000000; 
+    padding: 10px 0px 0px 20px; 
+    letter-spacing: 8px; 
+    font-family: 'Casper'; 
+    font-weight: 100;
+}
+
+.lac-subtittle-font{
+    font-size: 15px; 
+    padding-left: 20px; 
+    font-weight: bold; 
+    letter-spacing: 2px
+}
+
+.lac-tittle{
+    color: #000; 
+    padding-top: 10px; 
+    letter-spacing: 6px; 
+    font-family: 'Casper'; 
+    font-weight: 100;
+}
+
+.lac-tittle2{
+    color: #000; 
+    margin-left: 40px; 
+    padding-top: 10px; 
+    letter-spacing: 6px; 
+    font-family: 'Casper'; 
+    font-weight: 100;"
+}
+
+.lac-tittle3{
+    color: #919396; 
+    font-family: 'Casper'; 
+    font-weight: 100;
+}
+
+.lac-tittle4{
+    color: #000; 
+    font-family: 'Casper'; 
+    font-weight: 100;
+}
+
+.lac-tittle5{
+    color: #000; padding: 12px; letter-spacing: 6px; font-family: 'Casper'; font-weight: 100;
+}
+
+.lac-tittle5-bg{
+    background-color: #C7C6C2; height: 35px;
+}
+
+.lac-subtittle{
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.lac-margin{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.lac-content{
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.lac-content-gray{
+    font-size: 18px;
+    font-weight: 100;
+    color: #919396;
+}
+
+.lac-content-btm{
+    margin-bottom: 60px;
+}
+
+
+.lac-tittle-text{
+    color: #000; 
+    letter-spacing: 1px; 
+    font-family: 'Casper'; 
+    font-weight: bold;
+}
+
+.lac-text{
+    font-size: 15px;
+}
+
+.lac-paragraph{
+    margin-top: 20px; 
+    margin-bottom: 40px;
+}
+
+.lac-entry-meta{
+    font-size: 14px; 
+    top: 15px;
+}
+
+.lac-entry-button{
+    border-radius: 0px;
+    background-color: #EC2587; 
+    color: white; 
+    height: 70px;
+}
+
+.lac-map-button{
+    font-size: 10px; 
+    font-weight: bold; 
+    font-family: 'Casper'; 
+    margin-bottom: 30px; 
+    letter-spacing: 1px;
+}
+
+.lac-map-button-mrgn{
+    margin-top: 300px; 
+    margin-bottom:20px;
+}
+
+.lac-entry-icon{
+    font-size: 30px; 
+}
+.lac-pagination{
+    margin-bottom: 80px;
+}
+
+.lac-border-video{
+	border: 1px solid #aaa;
+    height: 430px;
+}
+
+.lac-border{
+	border: 1px solid #aaa;
+}
+
+
+.lac-flyer-bg{
+    background-color: #CDCCCB; top:60px;
+}
+
+.lac-tittle-flyer-main{
+    color: #919396; letter-spacing: 6px; font-family: 'Casper'; font-weight: bold; margin: 40px 0px -10px 0px;
+}
+
+.lac-text-flyer-cnt{
+    font-size: 15px; color: #919396; font-weight: bold; letter-spacing: 4px;
+}
+
+.lac-img-flyer{
+    position: absolute; left: 50%; margin-right: -50%; transform: translate(-50%, 0%);
+}
+
+.lac-date-flyer{
+    color: #919396; letter-spacing: 6px; font-family: 'Casper'; font-weight: 100;
+}
+
+.lac-hour-flyer{
+    font-size: 15px; color: #000; font-weight: bold; letter-spacing: 4px;
+}
+
+.lac-img-card{
+    margin: 10px; height: 200px;
+}
+
+.lac-text-card{
+    font-family: 'Casper'; font-size: 14px; font-style: italic; font-weight: bold; letter-spacing: 1px;
+}
+
+.profile-border{
+    border: 1px solid #aaa; height: 430px;
+}
+
+.profile-img-border{
+    margin: 10px; border: 1px solid #aaa; height: 200px;
+}
+
+.profile-name{
+	color: #fff; padding: 4px 0pc 0px 4px; font-family: 'Casper';
+}
+
+.profile-name-bg{
+    background-color: #CDCCCB; height: 22px;
+}
+
+.profile-content{
+    height: 180px; max-height: 190px; position: relative; top: 20px;
+}
+
+.profile-text{
+    font-size: 0.7em;
+}
+
+.profile-icon{
+    color: #EC2587; font-weight: 900;
+}
+
+.stylish-input-group .input-group-addon{
+    background: white !important; 
+}
+.stylish-input-group .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+
+.lac-divider {
+    border-top: 1px solid #ccc;
+}
+
+.divider-top {
+    margin-top: 0px;
+}
+
+.divider-btn {
+    margin-bottom: 0px;
+}
+
+.lac-thumbnail-meta {
+    margin-left: 5px; margin-top: -15px;
+}
+
+.lac-white {
+    margin: 15px; color: #fff; font-weight: bolder;
+}

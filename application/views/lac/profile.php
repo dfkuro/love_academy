@@ -38,11 +38,122 @@
 
     <div class="row">
       <div class="col-xs-12">
-        <h2 class="title-text" style="padding-bottom: 10px; border-bottom: 3px solid #000;">PROFILE</h2>
+        <h2 class="title-text" style="padding-bottom: 10px; border-bottom: 3px solid #000;">EXPERIENCES</h2>
       </div>
     </div>
 
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="lac-title-row-subsection">
+          <p class="pull-right">DONE</p>
+        </div>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <table id="calendar_done"></table>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="lac-title-row-subsection">
+          <p class="pull-right">TODO</p>
+        </div>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <table id="calendar_todo"></table>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="lac-title-row-subsection">
+          <p class="pull-right">INTERESTED</p>
+        </div>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+      <div class="col-xs-12">
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <h2 class="title-text" style="padding-bottom: 10px; border-bottom: 3px solid #000;">KNOWLEDGE</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="lac-title-row-subsection">
+          <p class="pull-right">BLOG</p>
+        </div>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <table id="table_blog"></table>
+      </div>
+    </div>
+
+    <hr>
+
+
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="lac-title-row-subsection">
+          <p class="pull-right">A QUESTION OF LOVE</p>
+        </div>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <table id="calendar"></table>
+      </div>
+    </div>
+
+    <hr> 
+
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="lac-title-row-subsection">
+          <p class="pull-right">DOWNLOADS</p>
+        </div>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <table id="downloads"></table>
+      </div>
+    </div>
+    <br>
   </div>
 
-  </div>
 </div>

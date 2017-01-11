@@ -1,4 +1,4 @@
-<?php
+  <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 /*
@@ -49,16 +49,33 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
-$route['default_controller'] = 'templateController';
+$route['default_controller'] = 'lacController';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 
-$route['maqueta'] = 'templateController/maqueta';
-$route['dfk001'] = 'templateController/dfk001';
-$route['session'] = 'templateController/session';
-$route['registration'] = 'templateController/registration_profile';
-$route['profile'] = 'templateController/profile';
+$route['maqueta'] = 'lacController/maqueta';
+$route['dfk001'] = 'lacController/dfk001';
+$route['session'] = 'lacController/session';
+$route['profile_registration'] = 'lacController/profile_registration';
+$route['teacher_registration'] = 'lacController/teacher_registration';
+$route['profile'] = 'lacController/profile';
+
+$route['experiences'] = 'lacController/experiences';
+$route['teachers_healears'] = 'lacController/teachers_healears';
+$route['jobs'] = 'lacController/jobs';
+$route['login'] = 'lacController/login';
+$route['workshop'] = 'lacController/workshop';
+$route['talk'] = 'lacController/talk';
+$route['terms_conditions'] = 'lacController/terms_conditions';
+$route['knowledge'] = 'lacController/knowledge';
+$route['question_of_love'] = 'lacController/question_of_love';
+$route['the_art_of_sexual_kung_fu'] = 'lacController/the_art_of_sexual_kung_fu';
 
 
 
+// Admin section
+
+$route['admin'] = 'adminController';
+$route['logout'] = 'adminController/logout';
+$route['dashboard'] = 'adminController/dashboard';

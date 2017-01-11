@@ -211,6 +211,17 @@ form .form-group input:not([type=radio]){
 }
 
 
+.lac-title-row-subsection{
+  background-color: #EC2587;
+  min-height: 30px;
+  height: 30px;
+  color: #fff;
+  padding: 5px 20px 5px 5px;
+  letter-spacing: 4px;
+  font-family: 'Casper Bold';
+}
+
+
 /* Cabeceras de linea para cada titulo de row */
 .lac-title-row h3{
   color: #EC2587;
@@ -270,7 +281,8 @@ form .form-group input:not([type=radio]){
 }
 
 .lac-card-experience + p a i{
-  color: #EC2587; font-weight: 900;
+  color: #EC2587;
+  font-weight: 900;
 }
 
 
