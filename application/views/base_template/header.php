@@ -83,7 +83,7 @@
             </div>
 
             <div class="login pull-right" style="margin: 30px;">
-              SIGN UP / LOG ING
+              <span><a href="#">SIGN UP</a> / <a href="login">LOG ING</a></span>
             </div>
 
             <div class="social pull-right" style="margin: 30px;">
@@ -106,7 +106,7 @@
       <div class="row">
         <div class="col-xs-12">
           <div class="lac-carousel">
-            <img src="http://lorempixel.com/1400/500/cats" alt="" class="img img-responsive">
+            <img src="http://lorempixel.com/1400/500/fashion" alt="" class="img img-responsive">
 
             
             <div class="lac-menu text-center">
@@ -114,15 +114,15 @@
               <ul id="nav">
                 <li style="padding-right: 20px;"><img src="<?=base_url('resources/images/icons/icon_home.png')?>"></li>
                 <li> - </li>
-                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#" id="aboutus_a">ABOUT US</a></li>
                 <li> - </li>
-                <li><a href="#">TEACHERS & HEALERS & COACHES</a></li>
+                <li><a href="#" id="teachers_a">TEACHERS & HEALERS & COACHES</a></li>
                 <li> - </li>
-                <li><a href="#">EXPERIENCES</a></li>
+                <li><a href="#" id="experiences_a">EXPERIENCES</a></li>
                 <li> - </li>
-                <li><a href="#">KNOWLEDGE</a></li>
+                <li><a href="#" id="knowledge_a">KNOWLEDGE</a></li>
                 <li> - </li>
-                <li><a href="#">CALENDAR</a></li>
+                <li><a href="#" id="calendar_a">CALENDAR</a></li>
               </ul>
 
 

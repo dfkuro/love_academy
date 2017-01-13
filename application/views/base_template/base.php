@@ -3,8 +3,8 @@
 
       <!-- What is love academy and newsletter -->
       <div class="row lac-row-padding">
-
-        <div class="col-xs-8">
+        
+        <div class="col-xs-8" id="aboutus_section">
           <div class="lac-bordered">
             <img src="http://placehold.it/780x545" alt="" class="img-responsive">
           </div>
@@ -58,7 +58,7 @@
       </div>
 
       <!-- Section: TEACHERS & HEALERS & COACHES -->
-      <div class="row">
+      <div class="row" id="teachers_section">
         <div class="col-xs-12">
           <div class="lac-title-row" style="">
             <h3 class="text-center">TEACHERS & HEALERS & COACHES</h3>
@@ -154,7 +154,7 @@
 
       <br>
 
-      <div class="row">
+      <div class="row" id="experiences_section">
         <div class="col-xs-12">
           <div class="lac-title-row" style="">
             <h3 class="text-center" style="">EXPERIENCES</h3>
@@ -299,7 +299,7 @@
 
 
 
-      <div class="row">
+      <div class="row" id="knowledge_section">
         <div class="col-xs-12">
           <div class="lac-title-row">
             <h3 class="text-center">KNOWLEDGE</h3>
@@ -343,7 +343,7 @@
         </div>
 
 
-        <div class="row">
+        <div class="row" id="calendar_section">
           <div class="col-xs-12">
             <div class="lac-title-row">
               <h3 class="text-center">CALENDAR</h3>

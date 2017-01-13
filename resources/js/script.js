@@ -1,4 +1,42 @@
 $(function() {
+
+
+  /*======================================
+  =            funciones menu            =
+  ======================================*/
+  
+  $("#aboutus_a").click(function() {
+      $('html, body').animate({
+          scrollTop: $("#aboutus_section").offset().top
+      }, 2000);
+  });
+
+  $("#teachers_a").click(function() {
+      $('html, body').animate({
+          scrollTop: $("#teachers_section").offset().top
+      }, 2000);
+  });
+
+  $("#experiences_a").click(function() {
+      $('html, body').animate({
+          scrollTop: $("#experiences_section").offset().top
+      }, 2000);
+  });
+
+  $("#knowledge_a").click(function() {
+      $('html, body').animate({
+          scrollTop: $("#knowledge_section").offset().top
+      }, 2000);
+  });
+
+  $("#calendar_a").click(function() {
+      $('html, body').animate({
+          scrollTop: $("#calendar_section").offset().top
+      }, 2000);
+  });
+  
+  /*=====  End of funciones menu  ======*/
+  
   
 
   $('#calendar').bootstrapTable({
