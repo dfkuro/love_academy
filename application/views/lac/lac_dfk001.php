@@ -8,8 +8,9 @@
         <div class="row">
           <div class="col-xs-12">
             <div class="lac-card-special">
-              <p class="title text-center">SASHA COBRA</p>
-              <img src="http://placehold.it/800x400" class="img-responsive">
+              <p class="title text-center"><?=$teacher_info['name']?></p>
+              <!-- <img src="http://placehold.it/800x400" class="img-responsive"> -->
+              <img src="<?=base_url('love_academy_files/users/avatars/'.$teacher_info['avatar'])?>" class="img-responsive" style="margin: 0 auto;">
             </div>
           </div>
         </div>

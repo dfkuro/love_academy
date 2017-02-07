@@ -1,0 +1,10 @@
+Por hacer
+
+*******
+
+ - Validar inputs 
+ - registrar usuarios
+ - registrar profesores
+ - registrar experiencia
+ - registrar sesion
+ 

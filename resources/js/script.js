@@ -1,6 +1,9 @@
 $(function() {
 
 
+  
+    
+
   /*======================================
   =            funciones menu            =
   ======================================*/
@@ -44,6 +47,8 @@ $(function() {
     groupBy: true,
     groupByField: 'date',
     sortOrder: 'asc',
+    search: true,
+    pagination: true,
     rowStyle: function(row, index) {
       return {
         classes: 'text-nowrap',

@@ -2,15 +2,15 @@ $(function() {
   
   $( "#login_button" ).click(function() {
 
-    var user = $("#login_user").val();
+    var email = $("#login_email").val();
     var password = $("#login_password").val();
 
     //alert("usuario: " + user + " password: " + password );
 
       $.ajax({
-        url: $site_base + 'adminController/login',
+        url: $site_base + 'AdminController/login',
         type: 'POST',
-        data: {user: user, password: password},
+        data: {email: email, password: password},
       })
       .done(function( data ) {
         console.log(data);

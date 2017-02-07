@@ -1,8 +1,58 @@
 /* Estilo principal de la pagina de love academy*/
 
+.my-error-class {
+    color:#FF0000;  /* red */
+}
+.my-valid-class {
+    color:#00CC00; /* green */
+}
+
+/*=========================================================
+=            Multiple radio select categories             =
+=========================================================*/
+
+#form_new_teacher li:nth-child(even) {
+    list-style-type: none;
+    padding: 15px;
+    background: rgb(225,225,225);
+    font-family: 'Casper';
+    color: #bbb;
+    font-size: .9em;
+    letter-spacing: 3px;
+}
+
+#form_new_teacher li:nth-child(odd) {
+    list-style-type: none;
+    padding: 15px;
+    background: rgb(240,240,240);
+    font-family: 'Casper';
+    color: #bbb;
+    font-size: .9em;
+    letter-spacing: 3px;
+}
+
+
+#form_new_teacher li div {
+  padding-right: 8px;
+}
+#form_new_teacher .radio-option {
+    float: right;
+    cursor: pointer;
+    height: 23px;
+    width: 23px;
+    background: url(../images/icons/checkbox.png) no-repeat 0px 0px;
+}
+#form_new_teacher .radio-option.click {
+    background: url(../images/icons/checkbox1.png) no-repeat 0px 0px;
+}
+
+/*=====  End of Multiple radio select categories   ======*/
+
+
 
 /* Overriding bootstrap styles */
 textarea:focus,
+textarea[type="text"]:focus,
 input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="datetime"]:focus,
@@ -17,11 +67,68 @@ input[type="url"]:focus,
 input[type="search"]:focus,
 input[type="tel"]:focus,
 input[type="color"]:focus,
+input[type="radio"]:focus,
 .uneditable-input:focus {   
   border-color: rgba(236,37,135, 0.8);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(236,37,135, 0.6);
   outline: 0 none;
+  color: black;
 }
+
+/*==========================================
+=            Dropdown menu user            =
+==========================================*/
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #EC2587;
+    color: white;
+    padding: 3px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    min-width: 160px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    z-index: 100;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #EC2587;
+}
+
+/*=====  End of Dropdown menu user  ======*/
+
 
 /*Estilos para generales*/
 
@@ -85,6 +192,7 @@ button{
 
 .lac-select select{
   font-size: 0.8em; height: 26px;
+  color: black;
 }
 
 .title-text{
@@ -122,9 +230,16 @@ form .form-group {
 
 /* De nuestro formulario definimos todos l */
 form .form-group input:not([type=radio]){
-    height: 50px;
+    font-family: 'Casper';
+    font-size: 1.1em;
     background-color: transparent;
     border-radius: 0;
+    padding-left: 10px;
+    color: black;
+}
+
+form textarea {
+  color: black;
 }
 
 

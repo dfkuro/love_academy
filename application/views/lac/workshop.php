@@ -1,20 +1,19 @@
 
-
-                  <div class="col-xs-12 lac-banner">
-                      <div>
-                        <img src="http://placehold.it/1150x400" alt="" class="img-responsive">
-                      </div>
-                  </div> 
+  <div class="col-xs-12 lac-banner">
+    <div>
+      <img src="<?=base_url('love_academy_files/users/'.$data_experience['teacher_id'].'/experience/'.clean_text($data_experience['event_name']).'/').$data_experience['event_banner']?>" alt="" class="img-responsive">
+    </div>
+  </div> 
 		
 		
-			<article class="col-xs-8" style="margin-bottom: 140px;">
-                  <div class="lac-tittle-card-bg">
-                      <h1 class="text-left lac-tittle-card-font">WORKSHOP</h1>              
-                    <p class="text-left lac-subtittle-font">
-                      IN SITU | 2 DAYS / 5 HRS. PER SESSION
-                    </p>
-                  </div>
-                  <br>
+<article class="col-xs-8" style="margin-bottom: 140px;">
+  <div class="lac-tittle-card-bg">
+    <h1 class="text-left lac-tittle-card-font">WORKSHOP</h1>              
+    <p class="text-left lac-subtittle-font">
+      IN SITU | <?=$data_experience['event_duration']?> DAYS / <?=$data_experience['event_schedule']?> HRS. PER SESSION
+    </p>
+  </div>
+  <br>
 
         <!--SECTION-->
                   
@@ -22,7 +21,9 @@
                   <div class="col-xs-12 article">
                     <div class="lac-border-video">
                       <div style="margin: 20px;">
-                        <iframe src="https://player.vimeo.com/video/172627017?title=0&byline=0&portrait=0" width="655" height="390" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                      <?=htmlspecialchars_decode(stripslashes($data_experience['event_video']))?>
+
+                        <!-- <iframe src="https://player.vimeo.com/video/172627017?title=0&byline=0&portrait=0" width="655" height="390" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
                       </div>
                     </div>
                   </div>  
@@ -63,29 +64,30 @@
                             <div class="col-xs-12 lac-flyer-bg">  
                                   <div>
                                       <h5 class="text-center lac-tittle-flyer-main">WORKSHOP</h5> 
-                                      <h1 class="text-center lac-tittle">SEED OF TRANSFORMATION</h1>              
+                                      <h1 class="text-center lac-tittle"><?=$data_experience['event_name']?></h1>              
                                       <p class= "text-center lac-subtittle-font">
-                                        IN SITU | 2 DAYS / 5 HRS. PER SESSION
+                                        IN SITU | <?=$data_experience['event_duration']?> DAYS / <?=$data_experience['event_schedule']?> HRS. PER SESSION
                                       </p>
                                       <br>
                                       <h1 class="text-center lac-tittle">DATE</h1>              
                                       <p class="text-center lac-text-flyer-cnt">
-                                        SEPTEMBER 24/25
+                                        <?=$data_experience['event_date']?>
                                       </p>
                                       <br>
                                       <h1 class="text-center lac-tittle">LOCATION</h1>              
                                       <p class="text-center lac-text-flyer-cnt">
-                                        HACIENDA SAN GABRIEL DE LAS PALMAS, TEPOZTLÁN, MORELOS, MÉXICO
+                                        <?=$data_experience['event_address']?>
                                       </p>
                                       <br>
                                       <div class="lac-img-flyer"> 
-                                        <img src="http://placehold.it/350x300" alt="" class="img-responsive lac-border">
+                                        <img style="max-width: 350px;" src="<?=base_url('love_academy_files/users/'.$data_experience['teacher_id'].'/experience/'.clean_text($data_experience['event_name']).'/').$data_experience['event_image']?>" alt="" class="img-responsive lac-border">
                                       </div>
                                       <br>
                                       <div class="col-xs-8 col-xs-offset-5 lac-map-button-mrgn"> 
-                                          <button type="submit" value="Submit" class="btn btn-secondary lac-map-button" style="font-size: 10px;">GOOGLE MAP</button>  
+                                         <a target="_blank" href="<?=$data_experience['event_map']?>"><button type="submit" value="Submit" class="btn btn-secondary lac-map-button" style="font-size: 10px;">GOOGLE MAP</button></a>
                                        </div>    
-                                      <h3 class="text-center lac-date-flyer">SATURDAY, SEPTEMBER 24</h3>            
+                                      <!-- <h3 class="text-center lac-date-flyer">SATURDAY, SEPTEMBER 24</h3>             -->
+                                      <h3 class="text-center lac-date-flyer"><?=$data_experience['event_date']?></h3>            
 
                                                 <div class="col-xs-8 col-md-offset-2">  
                                                         <table class="table" style="font-weight: bold;">                                           
@@ -127,9 +129,9 @@
                                                         </table>     
                                                 </div>
                                                 <div class="col-xs-8 col-md-offset-2">  
-                                                      <h1 class="text-center lac-tittle">COST</h1> 
+                                                      <h1 class="text-center lac-tittle">COST $<?=$data_experience['event_cost']?></h1> 
                                                     <div class="col-xs-8 col-md-offset-2"> 
-                                                      <button type="submit" value="Submit" class="btn btn-secondary btn-lg" style="font-size: 30px; margin-bottom: 30px; letter-spacing: 4px;">$950.00 USD</button>  
+                                                      <button type="submit" value="Submit" class="btn btn-secondary btn-lg" style="font-size: 30px; margin-bottom: 30px; min-width: 255px;  letter-spacing: 4px;">INVESTMENT</button>  
                                                     </div>            
                                                       <p class="text-center lac-text-flyer-cnt">
                                                         INCLUDES: ROOM, MATERIALS, BREAKFAST AND LATE CHECKOUT
@@ -230,3 +232,11 @@
         <div class="clearfix">
 
         </div>
+
+
+<?php 
+function clean_text($string) {
+   $string = str_replace(' ', '_', $string); // Replaces all spaces with hyphens.
+   return preg_replace('/[^A-Za-z0-9\_]/', '', $string); // Removes special chars.
+}
+?>

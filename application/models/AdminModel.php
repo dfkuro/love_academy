@@ -1,4 +1,4 @@
-  <?php
+<?php
 
 class AdminModel extends CI_Model {
 
@@ -11,12 +11,12 @@ class AdminModel extends CI_Model {
    * @return [type]           [regresa los datos obtenidos de la consulta]
    */
   function userValidation( $user, $password ){
-    
+
     // $this->db->trans_start();
     // $this->db->trans_complete();
     $this->db->select('*');
     $this->db->from('admin');
-    $this->db->where('mail', $user);
+    $this->db->where('email', $user);
     $this->db->where('password', $password);
     $this->db->where('status', 1);
 

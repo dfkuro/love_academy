@@ -9,13 +9,13 @@
                         <a href="dashboard"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
                     </li>
                 <li class="active">
-                        <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa fa-mobile"></i> Catalogo Dispositivos <i class="fa fa-fw fa-caret-down"></i></a>
+                        <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa fa-mobile"></i> Baners <i class="fa fa-fw fa-caret-down"></i></a>
                         <ul id="demo" class="collapse">
                             <li>
-                                <a href="workshop">Lista de dispositivos</a>
+                                <a href="workshop"></a>
                             </li>
                             <li>
-                                <a href="manufacturer">Fabricantes y Familias</a>
+                                <a href="manufacturer"></a>
                             </li>
                         </ul>
                     </li>

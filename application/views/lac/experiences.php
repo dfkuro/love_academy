@@ -122,9 +122,38 @@
                   <div class="lac-tittle5-bg" style="margin-top: 1000px">
                      <h5 class="text-left lac-tittle5">WORKSHOPS</h5>
                   </div> 
+
+
+                  <?php foreach ($workshops as $key => $value): ?>
+
+                   <div class="col-xs-6 lac-article">
+                     <div class="profile-border">
+                       <div class="profile-img-border">
+                         <img src="<?=base_url('love_academy_files/users/'.$value['teacher_id'].'/experience/'.clean_text($value['event_name']).'/').$value['event_banner']?>" alt="" class="img-responsive" style="height: 200px;">
+                         <div class="profile-name-bg">
+                           <h5 class="text-center profile-name"><?=$value['name']?></h5>
+                         </div>
+                       </div>
+                       <br>
+                       <div class="row">
+                         <div class="col-xs-10 col-xs-offset-1">
+                           <div class="profile-content">
+                             <p class="text-justify profile-text">
+                               <?=$value['event_short_description']?>
+                             </p>
+                           </div>
+                         </div>
+                       </div>
+                       <p class="text-center" style="position: relative;"> <a href="<?=base_url('workshop/'.$value["id"])?>" ><i class="fa fa-plus profile-icon"></i></a> </p>
+                     </div>
+                   </div>  
+
+                  <?php endforeach;?>
+
+
                   
-                    <!--WORKSHOPS 1-->
-                  <div class="col-xs-6 lac-article">
+                    
+                  <!-- <div class="col-xs-6 lac-article">
                     <div class="profile-border">
                       <div class="profile-img-border">
                         <img src="http://placehold.it/310x200" alt="" class="img-responsive">
@@ -147,7 +176,7 @@
                   </div>  
                   
                   
-                    <!--WORKSHOPS 2-->
+                    
                   <div class="col-xs-6 lac-article">
                     <div class="profile-border">
                       <div class="profile-img-border">
@@ -170,7 +199,7 @@
                     </div>
                   </div>     
                   
-                    <!--WORKSHOPS 3-->
+                                   
                   <div class="col-xs-6 lac-article">
                     <div class="profile-border">
                       <div class="profile-img-border">
@@ -194,7 +223,7 @@
                   </div>  
                   
                   
-                    <!--WORKSHOPS 4-->
+                  
                   <div class="col-xs-6 lac-article">
                     <div class="profile-border">
                       <div class="profile-img-border">
@@ -215,7 +244,7 @@
                       </div>
                       <p class="text-center" style="position: relative;"> <a href="#" ><i class="fa fa-plus profile-icon"></i></a> </p>
                     </div>
-                  </div>   
+                  </div>    -->
                   
                                         
                                                                                     
@@ -344,3 +373,9 @@
         <div class="clearfix">
 
         </div>
+<?php 
+function clean_text($string) {
+   $string = str_replace(' ', '_', $string); // Replaces all spaces with hyphens.
+   return preg_replace('/[^A-Za-z0-9\_]/', '', $string); // Removes special chars.
+}
+?>

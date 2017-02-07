@@ -43,12 +43,24 @@
 
 <!-- cargamos el componente de jquery -->
 <script type="text/javascript" src="<?=base_url('vendor/components/jquery/jquery.min.js')?>"></script>
+<script src="<?=base_url('vendor/twbs/bootstrap/dist/js/bootstrap.min.js')?>" ></script> 
 <!-- Cargamos la libreria para las tablas  -->
 <script type="text/javascript" src="<?=base_url('vendor/wenzhixin/bootstrap-table/dist/bootstrap-table.min.js')?>"></script>
 <script type="text/javascript" src="<?=base_url('vendor/wenzhixin/bootstrap-table/dist/bootstrap-table-locale-all.min.js')?>"></script>
 <script type="text/javascript" src="<?=base_url('vendor/wenzhixin/bootstrap-table/dist/extensions/group-by-v2/bootstrap-table-group-by.min.js')?>"></script>
 
 <script type="text/javascript" src="<?=base_url('resources/js/script.js')?>"></script>
+
+<!-- Dynamic load of files -->
+<?php
+  //var_dump($scripts);
+  if(isset($scripts)) {
+    foreach ($scripts as $key => $ruta_script) {
+       print('<script type="text/ecmascript" src="'. site_url($ruta_script) .'?ver='.rand(). '"></script>');
+    }
+  }
+?>
+
 
 </body>
 

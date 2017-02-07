@@ -6,7 +6,8 @@
         
         <div class="col-xs-8" id="aboutus_section">
           <div class="lac-bordered">
-            <img src="http://placehold.it/780x545" alt="" class="img-responsive">
+            <!-- <img src="http://placehold.it/780x545" alt="" class="img-responsive"> -->
+            <img src="<?=base_url('resources/images/somos.png')?>" alt="" class="img-responsive">
           </div>
         </div>
 
@@ -71,34 +72,41 @@
       <!-- TODO: Need to fix thumnails -->
       <div class="row lac-row-padding">
 
-        <div class="col-xs-4" >
+        <?php foreach ($teachers_healers as $key => $value): ?>
 
-            <div class="lac-card-thc">
-              <div>
-                <img src="http://placehold.it/325x200" alt="" class="img-responsive">
-                <div class="lac-card-thc-title" >
-                  <h5 class="text-center lac-card-thc-title">S A S H A &nbsp; C O B R A</h5>
-                </div>
-              </div>
-
-              <br>
-
-              <div class="row">
-                <div class="col-xs-10 col-xs-offset-1">
-                  <div class="lac-card-thc-info">
-                    <p class="center-text">
-                      Sasha has been living, training and working with Shantam Nityama for over 8 years and is one of three certified Nitvana Bodywork Practitioners in the world. She now travels globally, sharing the gifts of this work through private sessions and workshops.
-                    </p>
+          <div class="col-xs-4" >
+            <a href="teacher_profile/<?=$value['id']?>" >
+              <div class="lac-card-thc">
+                <div>
+                  <div style="position: relative;  width: 350px; height: 200px; overflow: hidden;">
+                    <img src="<?=base_url('love_academy_files/users/avatars/').$value['avatar']?>" style=" position: absolute; left: 50%; top: 50%; height: 100%; width: auto; -webkit-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); transform: translate(-50%,-50%);" alt=""  class="img-responsive">
+                  </div>
+                  <div class="lac-card-thc-title" >
+                    <h5 class="text-center lac-card-thc-title"><?=$value['name']?> &nbsp; <?=$value['last_name']?></h5>
                   </div>
                 </div>
+
+                <br>
+
+                <div class="row">
+                  <div class="col-xs-10 col-xs-offset-1">
+                    <div class="lac-card-thc-info">
+                      <p class="center-text">
+                        <?=$value['bio']?>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <p class="text-center"> <a href="th_profile/<?=$value['id']?>" ><i class="fa fa-plus"></i></a> </p>
               </div>
-              <p class="text-center"> <a href="#" ><i class="fa fa-plus"></i></a> </p>
-            </div>
+            </a>
 
-        </div>
+          </div>
 
-        <div class="col-xs-4" >
+        <?php endforeach;?>
 
+        <!-- <div class="col-xs-4" >
+        
             <div class="lac-card-thc">
               <div>
                 <img src="http://placehold.it/325x200" alt="" class="img-responsive">
@@ -106,9 +114,9 @@
                   <h5 class="text-center lac-card-thc-title">S A S H A &nbsp; C O B R A</h5>
                 </div>
               </div>
-
+        
               <br>
-
+        
               <div class="row">
                 <div class="col-xs-10 col-xs-offset-1">
                   <div class="lac-card-thc-info" >
@@ -120,11 +128,11 @@
               </div>
               <p class="text-center"> <a href="#" ><i class="fa fa-plus"></i></a> </p>
             </div>
-
+        
         </div>
-
+        
         <div class="col-xs-4" >
-
+        
             <div class="lac-card-thc">
               <div class="lac-card-thc-title">
                 <img src="http://placehold.it/325x200" alt="" class="img-responsive">
@@ -132,9 +140,9 @@
                   <h5 class="text-center">S A S H A &nbsp; C O B R A</h5>
                 </div>
               </div>
-
+        
               <br>
-
+        
               <div class="row">
                 <div class="col-xs-10 col-xs-offset-1">
                   <div class="lac-card-thc-info">
@@ -146,8 +154,8 @@
               </div>
               <p class="text-center"> <a href="#" ><i class="fa fa-plus"></i></a> </p>
             </div>
-
-        </div>
+        
+        </div> -->
 
 
       </div>
@@ -170,28 +178,34 @@
         <div class="col-xs-4" >
             <div class="lac-card-experience">
               <div>
-                <img src="" alt="">
+                <a style="position:absolute;" href="experiences">
+                  <img src="<?=base_url('resources/images/workshops.png')?>" alt="" class="img img-responsive" style="width: 92%;">
+                </a>
               </div>
             </div>
-            <p class="text-center"> <a href="#" ><i class="fa fa-plus"></i></a> </p>
+            <p class="text-center"> <a href="experiences" ><i class="fa fa-plus"></i></a> </p>
         </div>
         
         <div class="col-xs-4" >
             <div class="lac-card-experience">
               <div>
-                <img src="" alt="">
+                <a style="position:absolute;" href="experiences">
+                  <img src="<?=base_url('resources/images/programs.png')?>" alt="" class="img img-responsive" style="width: 92%;">
+                </a>
               </div>
             </div>
-            <p class="text-center"> <a href="#" ><i class="fa fa-plus"></i></a> </p>
+            <p class="text-center"> <a href="experiences" ><i class="fa fa-plus"></i></a> </p>
         </div>
 
         <div class="col-xs-4" >
             <div class="lac-card-experience">
               <div>
-                <img src="" alt="">
+                <a style="position:absolute;" href="experiences">
+                  <img src="<?=base_url('resources/images/retreats.png')?>" alt="" class="img img-responsive" style="width: 92%;">
+                </a>
               </div>
             </div>
-            <p class="text-center"> <a href="#" ><i class="fa fa-plus"></i></a> </p>
+            <p class="text-center"> <a href="experiences" ><i class="fa fa-plus"></i></a> </p>
         </div>
        
 
@@ -213,7 +227,7 @@
         <div class="col-xs-6" >
           <div class="lac-card-event-img">
             <div>
-              <img src="http://placehold.it/515x200" alt="" class="img-responsive">
+              <img src="<?=base_url('resources/images/signature_events/together.png')?>" alt="" class="img-responsive">
             </div>
             <div class="">
               <img src="http://placehold.it/515x160" alt="" class="img-responsive">
@@ -226,7 +240,7 @@
         <div class="col-xs-6" >
           <div class="lac-card-event-img">
             <div>
-              <img src="http://placehold.it/515x200" alt="" class="img-responsive">
+              <img src="<?=base_url('resources/images/signature_events/kamaflight.png')?>" alt="" class="img-responsive">
             </div>
             <div class="">
               <img src="http://placehold.it/515x160" alt="" class="img-responsive">
@@ -242,7 +256,7 @@
         <div class="col-xs-6" >
           <div class="lac-card-event-img">
             <div>
-              <img src="http://placehold.it/515x200" alt="" class="img-responsive">
+              <img src="<?=base_url('resources/images/signature_events/sundance.png')?>" alt="" class="img-responsive">
             </div>
             <div class="">
               <img src="http://placehold.it/515x160" alt="" class="img-responsive">
@@ -255,7 +269,7 @@
         <div class="col-xs-6" >
           <div class="lac-card-event-img">
             <div>
-              <img src="http://placehold.it/515x200" alt="" class="img-responsive">
+              <img src="<?=base_url('resources/images/signature_events/moondance.png')?>" alt="" class="img-responsive">
             </div>
             <div class="">
               <img src="http://placehold.it/515x160" alt="" class="img-responsive">
@@ -272,7 +286,7 @@
         <div class="col-xs-6" >
           <div class="lac-card-event-img">
             <div>
-              <img src="http://placehold.it/515x200" alt="" class="img-responsive">
+              <img src="<?=base_url('resources/images/signature_events/placermio.png')?>" alt="" class="img-responsive">
             </div>
             <div class="">
               <img src="http://placehold.it/515x160" alt="" class="img-responsive">
@@ -285,7 +299,7 @@
         <div class="col-xs-6" >
           <div class="lac-card-event-img">
             <div>
-              <img src="http://placehold.it/515x200" alt="" class="img-responsive">
+              <img src="<?=base_url('resources/images/signature_events/eyegazing.png')?>" alt="" class="img-responsive">
             </div>
             <div class="">
               <img src="http://placehold.it/515x160" alt="" class="img-responsive">
@@ -311,34 +325,40 @@
 
         <div class="row lac-row-padding">
           <div class="col-xs-12" >
-              <div class="lac-card-knowledge">
+            <div class="lac-card-knowledge">
+              <a href="<?=base_url('knowledge')?>">
                 <div>
-                  <img src="http://placehold.it/1080x375" alt="" class="img-responsive">
+                  <img src="<?=base_url('resources/images/knowledge/blog.png')?>" alt="" class="img-responsive">
                 </div>
-              </div>
-              <p class="text-center"> <a href="#" ><i class="fa fa-plus"></i></a> </p>
+              </a>
+            </div>
+            <p class="text-center"> <a href="<?=base_url('resources/images/knowledge/blog.png')?>" ><i class="fa fa-plus"></i></a> </p>
           </div>
         </div>
 
         <div class="row lac-row-padding">
           <div class="col-xs-12" >
             <div class="lac-card-knowledge">
-              <div>
-                <img src="http://placehold.it/1080x375" alt="" class="img-responsive">
-              </div>
+              <a href="<?=base_url('question_of_love')?>">
+                <div>
+                  <img src="<?=base_url('resources/images/knowledge/questionlove.png')?>" alt="" class="img-responsive">
+                </div>
+              </a>
             </div>
-            <p class="text-center"> <a href="#" ><i class="fa fa-plus"></i></a> </p>
+            <p class="text-center"> <a href="<?=base_url('question_of_love')?>" ><i class="fa fa-plus"></i></a> </p>
           </div>
         </div>
 
         <div class="row lac-row-padding">
           <div class="col-xs-12" >
-              <div class="lac-card-knowledge">
+            <div class="lac-card-knowledge">
+              <a href="<?=base_url('')?>">
                 <div>
-                  <img src="http://placehold.it/1080x375" alt="" class="img-responsive">
+                  <img src="<?=base_url('resources/images/knowledge/bookclub.png')?>" alt="" class="img-responsive">
                 </div>
-              </div>
-              <p class="text-center"> <a href="#" ><i class="fa fa-plus"></i></a> </p>
+              </a>
+            </div>
+            <p class="text-center"> <a href="#\<?=base_url('')?>" ><i class="fa fa-plus"></i></a> </p>
           </div>
         </div>
 

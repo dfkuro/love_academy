@@ -14,13 +14,13 @@
         <form>
           <div class="form-group">
             <div class="col-xs-3" style="padding-left: 0; padding-right: 0;">
-              <img src="http://lorempixel.com/250/250/people" class="img-responsive" style="width: 250px; height: 250px; border: 1px solid #000;">
-              <p class="help-block text-center">UPLOAD IMAGE</p>
+              <img src="<?=base_url('love_academy_files/users/avatars/'.$this->session->avatar)?>" class="img-responsive" style="width: 250px; height: 250px; border: 1px solid #000;" readonly>
+              <!-- <p class="help-block text-center">UPLOAD IMAGE</p> -->
             </div>
             <div class="col-xs-9" style="">
-              <input type="email" class="form-control" id="email" value="BOLIGOMA">
+              <input type="email" class="form-control" id="email" value="<?=$this->session->name?>" readonly>
               <br>
-              <textarea type="email" class="form-control" id="email" style="height: 142px; background-color: transparent;">CREATIVE GRAPHIC DESIGNER</textarea>
+              <textarea type="email" class="form-control" id="email" style="height: 142px; background-color: transparent;" readonly><?=$this->session->bio?></textarea>
             </div>
           </div>
         </form>
@@ -29,8 +29,35 @@
 
     <div class="row">
       <div class="col-xs-12">
+
+        <?php if( $this->session->skype != '' ): ?>
+          <div class="pull-right" style="padding-left: 10px; padding-right: 10px;">
+            <a href="skype:<?=$this->session->skype?>?userinfo"><img src="<?=base_url('resources/images/icons/skype.png')?>"></a>
+          </div>
+        <?php endif;?>
+
+        <?php if( $this->session->facebook != '' ): ?>
+          <div class="pull-right" style="padding-left: 10px; padding-right: 10px;">
+            <a href="<?=$this->session->facebook?>"><img src="<?=base_url('resources/images/icons/facebook.png')?>"></a>
+          </div>
+        <?php endif;?>
+
+        <?php if( $this->session->twitter != '' ): ?>
+        <div class="pull-right" style="padding-left: 10px; padding-right: 10px;">
+          <a href="<?=$this->session->twitter?>"><img src="<?=base_url('resources/images/icons/twitter.png')?>"></a>
+        </div>
+        <?php endif;?>
+
+        
+      </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+      <div class="col-xs-12">
         <div class="pull-right">
-          <img src="">
+          <button class="btn btn-default">Edit</button>
         </div>
       </div>
     </div>

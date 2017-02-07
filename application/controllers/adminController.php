@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class adminController extends CI_Controller {
+class AdminController extends CI_Controller {
 
 
   function __construct() {
@@ -25,12 +25,12 @@ class adminController extends CI_Controller {
         'data' => "resources/admin/js/plugins/morris/morris-data.js"
       )
     );
-    
+
     if( $this->session->logged_in ){
       $this->load->view('admin/admin_header');
       $this->load->view('admin/admin_menu');
       $this->load->view('admin/admin_dashboard');
-      $this->load->view('admin/admin_footer', $scripts); 
+      $this->load->view('admin/admin_footer', $scripts);
     } else {
       redirect('admin','refresh');
     }

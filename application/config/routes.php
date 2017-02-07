@@ -1,4 +1,5 @@
-  <?php
+<?php
+
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 /*
@@ -49,33 +50,63 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
-$route['default_controller'] = 'lacController';
+
+/*============================================
+=            Principal for config            =
+============================================*/
+
+$route['default_controller'] = 'LacController/home';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
-
-$route['maqueta'] = 'lacController/maqueta';
-$route['dfk001'] = 'lacController/dfk001';
-$route['session'] = 'lacController/session';
-$route['profile_registration'] = 'lacController/profile_registration';
-$route['teacher_registration'] = 'lacController/teacher_registration';
-$route['profile'] = 'lacController/profile';
-
-$route['experiences'] = 'lacController/experiences';
-$route['teachers_healears'] = 'lacController/teachers_healears';
-$route['jobs'] = 'lacController/jobs';
-$route['login'] = 'lacController/login';
-$route['workshop'] = 'lacController/workshop';
-$route['talk'] = 'lacController/talk';
-$route['terms_conditions'] = 'lacController/terms_conditions';
-$route['knowledge'] = 'lacController/knowledge';
-$route['question_of_love'] = 'lacController/question_of_love';
-$route['the_art_of_sexual_kung_fu'] = 'lacController/the_art_of_sexual_kung_fu';
+/*=====  End of Principal for config  ======*/
 
 
+/*===============================================
+=            Section for lac webpage            =
+===============================================*/
 
-// Admin section
+$route['home'] = 'LacController/home';
+$route['maqueta'] = 'LacController/maqueta';
+$route['teacher_profile/(:num)'] = 'LacController/teacher_profile/$1';
+$route['session'] = 'LacController/session';
+$route['registration'] = 'LacController/registration';
+$route['profile_registration'] = 'LacController/profile_registration';
+$route['teacher_registration'] = 'LacController/teacher_registration';
+$route['profile'] = 'LacController/profile';
+//$route['th_profile/(:num)'] = 'LacController/th_profile/$1';
 
-$route['admin'] = 'adminController';
-$route['logout'] = 'adminController/logout';
-$route['dashboard'] = 'adminController/dashboard';
+$route['experiences'] = 'LacController/experiences';
+$route['teachers_healears'] = 'LacController/teachers_healears';
+$route['jobs'] = 'LacController/jobs';
+$route['login'] = 'LacController/login';
+$route['user_logout'] = 'LacController/user_logout';
+$route['workshop/(:num)'] = 'LacController/workshop/$1';
+$route['talk'] = 'LacController/talk';
+$route['terms_conditions'] = 'LacController/terms_conditions';
+$route['knowledge'] = 'LacController/knowledge';
+$route['question_of_love'] = 'LacController/question_of_love';
+$route['the_art_of_sexual_kung_fu'] = 'LacController/the_art_of_sexual_kung_fu';
+
+$route['experience_form'] = 'LacController/experience_form';
+$route['form_workshop'] = 'LacController/form_workshop';
+$route['session_form'] = 'LacController/session_form';
+$route['new_event'] = 'LacController/new_event';
+
+
+/*=====  End of Section for lac webpage  ======*/
+
+
+
+
+/*=====================================
+=            Admin section            =
+=====================================*/
+
+
+$route['admin'] = 'AdminController';
+$route['logout'] = 'AdminController/logout';
+$route['dashboard'] = 'AdminController/dashboard';
+
+
+/*=====  End of Admin section  ======*/
